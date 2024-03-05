@@ -1,0 +1,15 @@
+import { Link } from 'react-router-dom';
+import './Nav.scss';
+function Nav() {
+    return (
+        <nav>
+            <ul className='nav-link'>
+                <Link to="/"><li>Bienvenue</li></Link>
+                <Link to="/ParcoursPro"><li>Parcours Pro</li></Link>
+                <Link to="Apropos"><li>À Propos</li></Link>
+            </ul>
+        </nav>
+    );
+}
+
+export default Nav;

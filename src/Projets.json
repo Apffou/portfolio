@@ -1,0 +1,107 @@
+[
+    {
+        "id": "Booki",
+        "title": "Page de l'hotel Booki",
+        "thumbTitle": "Projet Booki",
+        "thumb": "/assets/images/test.png",
+        "alt": "visuel du site web Booki",
+        "date": "en août 2023.",
+        "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+        "link-page": "https://apffou.github.io/Booki/",
+        "link-github": "https://github.com/Apffou/Booki",
+        "description": "Ce projet avait pour mission de créer une page via une maquette fourni. Elle devait être responsive mobile, tablette et desktop. Les conditions à respecter étaient de simuler un bouton rechercher, de mettre en hoover les filtres et le menu.",
+        "tags": [
+            "HTML5",
+            "CSS3"
+        ]
+    },
+    {
+        "id": "OhMyFood",
+        "title": "Page Annuaire de restaurant OhMyFood",
+        "thumbTitle": "Projet OhMyFood",
+        "thumb": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+        "alt": "visuel du site web OhMyFood",
+        "date": "en octobre 2023.",
+        "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+        "link-page": "https://apffou.github.io/Ohmyfood/",
+        "link-github": "https://github.com/Apffou/Ohmyfood",
+        "description": "Ce projet avait pour mission de créer un site avec une maquette à respecter. Elle devait être responsive et créer en mobile first. Les conditions à respecter étaient de créer un loader, de faire des animations css et keyframe fluide en hoover. ",
+        "tags": [
+            "HTML5",
+            "CSS3",
+            "SASS"
+        ]
+    },
+    {
+        "id": "NinaCarducci",
+        "title": "Référencement et Optimisation du site Nina Carducci",
+        "thumbTitle": "Projet Nina Carducci",
+        "thumb": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+        "alt": "visuel du site web de la photographe Nina Carducci",
+        "date": "en décembre 2023.",
+        "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+        "link-page": "https://apffou.github.io/NinaCarducci/",
+        "link-github": "https://github.com/Apffou/NinaCarducci",
+        "description": "Ce projet avait pour mission d'optimiser le site web pour qu'il soit plus accessible aux utilisateurs comme un temps de chargement plus rapide en réduisant le poids des images. Les conditions à respecter étaient d'avoir un score de 90 minimum sur LightHouse (outil permetant de mesurer la qualité d'une page Web). Il fallait également pratiquer le référencement naturel (SEO) par exemple en mettant une balise title, en renommant les images ou en remplissant les balises ALT ",
+        "tags": [
+            "HTML5",
+            "CSS3",
+            "Google LightHouse"
+        ]
+    },
+    {
+        "id": "Kasa",
+        "title": "Refonte de l'agence de Location Immobilière, Kasa",
+        "thumbTitle": "Projet Kasa",
+        "thumb": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+        "alt": "élément du visuel du site web Kasa",
+        "date": "en janvier 2024.",
+        "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+        "link-page": "A REMPLIR",
+        "link-github": "https://github.com/Apffou/Kasa",
+        "description": "Ce projet avait pour mission de faire la refonte du site Web Kasa à partir d'une base de donnée. Les conditions pour réussir ce projet étaient d'utiliser React pour le front-end pour créer des composants et des routes pour naviguer sur le site.  Il a été intéressant de construire des composants avec la suntaxe particulière de React.  ",
+        "tags": [
+            "HTML5",
+            "SASS",
+            "Javascript",
+            "React"
+        ]
+    },
+    {
+        "id": "Pika",
+        "title": "Site web sur l'histoire d'une petite chienne, Pika",
+        "thumbTitle": "Projet Pika",
+        "thumb": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+        "alt": "élément du site web de Pika",
+        "date": "en février 2024.",
+        "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+        "link-page": "https://apffou.github.io/Pika/",
+        "link-github": "https://github.com/Apffou/Pika",
+        "description": "Ce projet personnel était de continuer à m'exercer sur ce que j'avais appris pendant ma formation. J'ai pu m'exercer sur React, la mise en page et les animations CSS. J'ai également appris à déployer un site React sur Github Pages.  ",
+        "tags": [
+            "HTML5",
+            "SASS",
+            "Javascript",
+            "React"
+        ]
+    },
+    {
+        "id": "??",
+        "title": "??",
+        "thumbTitle": "Projet ??",
+        "thumb": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+        "alt": "visuel du site???",
+        "date": "en mars 2024.",
+        "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+        "link-page": "#",
+        "link-github": "#",
+        "description": "Ce projet ??  ",
+        "tags": [
+            "HTML5",
+            "SASS",
+            "Javascript",
+            "React",
+            "Redux"
+        ]
+    }
+]

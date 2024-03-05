@@ -1,0 +1,607 @@
+@use "variable";
+
+/* --------------------  Header */
+
+header {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  align-items: center;
+  margin-top: 10px;
+  background-color: variable.$bisque;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  @media screen and (min-width:768px) {
+    justify-items: center;
+  }
+
+  .logo {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin-left: 5px;
+  }
+}
+
+
+
+/* --------------------  Général */
+
+body {
+  background-color: variable.$body;
+}
+
+h2,
+h3 {
+  font-family: "Yeseva One", serif;
+  font-weight: 500;
+  margin: 0;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "Yeseva One", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+/* --------------------  Home  */
+
+.section-presentation {
+  @media screen and (min-width:1440px) {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+
+  }
+
+  .presentation-img {
+
+    @media screen and (min-width:375px) {
+      display: none;
+    }
+
+    @media screen and (min-width:768px) {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    @media screen and (min-width:1440px) {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+
+      ;
+    }
+  }
+
+  .titre {
+    font-size: 1.2em;
+
+    h1 {
+      margin: 0;
+      margin: 0 auto;
+      max-width: 60%;
+      text-align: center;
+    }
+
+    .presentation-paragr {
+      font-size: .9em;
+      margin: 0 auto;
+      text-align: justify;
+      padding: 0 25px;
+      max-width: 75%;
+
+    }
+  }
+
+}
+
+.section-projets {
+  background-color: variable.$section;
+  padding-bottom: 50px;
+
+  h2 {
+    padding: 40px 0;
+    text-align: center;
+  }
+
+
+}
+
+.section-thumbs {
+  display: grid;
+  row-gap: 30px;
+  justify-items: center;
+
+  @media screen and (min-width:768px) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media screen and (min-width:1440px) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  @media screen and (min-width:1920px) {
+    margin: 0px 150px;
+    row-gap: 80px;
+  }
+}
+
+/* --------------------  Parcours Pro */
+
+.presentation-contain {
+  width: 100%;
+  height: auto;
+  padding: 40px 15px;
+  background-color: rgb(115, 169, 151);
+  box-sizing: border-box;
+
+  @media screen and (min-width:1024px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+
+  }
+
+  .presentation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+      font-size: 3em;
+      text-align: left;
+      margin: 20px 0px;
+    }
+
+    p {
+      max-width: 90%;
+      text-align: justify;
+      margin: 5px 0;
+      font-size: 1em;
+
+      @media screen and (min-width:768px) {
+        max-width: 80%;
+      }
+
+      @media screen and (min-width:1024px) {
+        max-width: 70%;
+        font-size: 1.1em;
+      }
+
+      @media screen and (min-width:1440px) {
+        max-width: 70%;
+        font-size: 1.2em;
+      }
+    }
+
+    a {
+      color: #FFF;
+      text-decoration: none;
+      cursor: pointer;
+
+      .button-linkedin {
+        background-color: rgb(206, 102, 37);
+        height: 30px;
+        line-height: 30px;
+        border-radius: 30px;
+        padding: 10px 20px;
+        text-align: center;
+        margin-top: 25px;
+        margin-bottom: 60px;
+      }
+    }
+  }
+
+  .personne {
+    @media screen and (min-width:768px) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .photo-button {
+      position: relative;
+      height: auto;
+      width: 100%;
+      display: flex;
+
+      @media screen and (min-width:768px) {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      img {
+        display: inline-block;
+        width: 100%;
+
+        @media screen and (min-width:768px) {
+          width: 70%;
+        }
+      }
+
+      .button {
+        position: absolute;
+        background-color: rgb(251, 204, 17);
+        height: 25px;
+        border-radius: 30px;
+        padding: 10px 50px;
+        text-align: center;
+        top: 75%;
+      }
+    }
+
+    .contact {
+      background-color: black;
+      color: #FFF;
+      padding: 15px;
+      box-sizing: border-box;
+
+      @media screen and (min-width:768px) {
+        width: 70%;
+
+      }
+    }
+
+    h2 {
+      font-size: 2.7em;
+    }
+
+  }
+
+}
+
+
+.Parcours {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 15px;
+  margin-bottom: 60px;
+
+
+
+  .title {
+    font-size: 3em;
+    text-align: left;
+    margin: 60px 0px;
+  }
+
+  .formations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 60px;
+
+    @media screen and (min-width:768px) {
+      display: grid;
+
+    }
+
+    .formations-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 50px;
+
+      @media screen and (min-width:768px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+      }
+
+      .formation-content {
+        height: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+
+        @media screen and (min-width:768px) {
+          justify-content: space-between;
+        }
+
+
+        img {
+          width: 200px;
+          height: auto;
+
+          @media screen and (min-width:768px) {
+            width: 170px;
+          }
+        }
+
+        h3 {
+          font-size: 1.5em;
+          max-width: 69%;
+        }
+      }
+    }
+
+
+    h2 {
+      font-size: 2.2em;
+
+      @media screen and (min-width:768px) {
+        text-align: center;
+      }
+    }
+
+
+  }
+
+  .skills {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+
+    h2 {
+      font-size: 2.2em;
+    }
+
+    &-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 50px;
+
+      @media screen and (min-width:768px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 60px;
+        column-gap: 85px;
+      }
+
+      @media screen and (min-width:1024px) {
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 125px;
+      }
+
+
+      @media screen and (min-width:1920px) {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        column-gap: 125px;
+      }
+
+
+      .skills-logo {
+        width: 200px;
+        height: 137px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px 15px 0 0;
+        box-shadow: 0px 4px 9px rgba(0, 0, 0, .12);
+
+        img {
+          width: 100px;
+          height: auto;
+        }
+
+
+      }
+
+      /* couleurs skills*/
+
+      .html {
+        background-color: #FC490B;
+      }
+
+      .css {
+        background-color: #2965f1;
+      }
+
+      .sass {
+        background-color: #CD6899;
+      }
+
+      .javascript {
+        background-color: #F7DF1E;
+      }
+
+      .react {
+        background-color: #61DAFB;
+      }
+
+      h3 {
+        margin: 0;
+        display: block;
+        background-color: #FFF;
+        width: 200px;
+        height: 62px;
+        border-radius: 0 0 15px 15px;
+        line-height: 62px;
+        text-align: center;
+        box-shadow: 0px 4px 9px rgba(0, 0, 0, .12);
+      }
+    }
+  }
+
+  .software {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin-top: 70px;
+
+    h2 {
+      font-size: 2.2em;
+    }
+
+    .software-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 40px;
+
+      @media screen and (min-width:768px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 60px;
+        column-gap: 85px;
+
+      }
+
+      @media screen and (min-width:1024px) {
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 125px;
+      }
+
+      @media screen and (min-width:1440px) {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 125px;
+      }
+
+      @media screen and (min-width:1920px) {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+      }
+    }
+
+    .software-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+
+
+
+      .software-logo {
+        width: 200px;
+        height: 137px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px 15px 0 0;
+        box-shadow: 0px 4px 9px rgba(0, 0, 0, .12);
+
+
+
+        img {
+          width: 100px;
+          height: auto;
+        }
+
+      }
+
+      h3 {
+        margin: 0;
+        display: block;
+        background-color: #FFF;
+        width: 200px;
+        height: 62px;
+        border-radius: 0 0 15px 15px;
+        line-height: 62px;
+        text-align: center;
+        box-shadow: 0px 4px 9px rgba(0, 0, 0, .12);
+      }
+
+      /* couleurs skoftware*/
+      .vs-code {
+        background-color: #1070B3;
+      }
+
+      .figma {
+        background-color: #ff7262;
+      }
+
+      .photoshop {
+        background-color: #042d4f;
+      }
+
+      .illustrator {
+        background-color: #502e0c;
+      }
+
+
+    }
+
+  }
+}
+
+
+
+/* --------------------  ERREUR 404 */
+
+.section-erreur {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0px 60px 0px;
+  position: relative;
+
+  @media screen and (min-width:1024px) {
+    margin: 60px 0px 40px 0px;
+  }
+
+  img {
+    width: 90%;
+    border: 5px solid #FFF;
+    border-radius: 15px;
+
+    @media screen and (min-width:1024px) {
+      width: 80%;
+    }
+
+    @media screen and (min-width:1440px) {
+      width: 60%;
+    }
+
+    @media screen and (min-width:1920px) {
+      width: 50%;
+    }
+
+  }
+
+  .test {
+    position: absolute;
+    width: 80%;
+    background-color: #FFF;
+    border-radius: 15px;
+    padding: 10px;
+    bottom: 0;
+    transform: translateY(50%);
+
+    @media screen and (min-width:1024px) {
+      top: 0;
+      transform: translateY(-50%);
+      width: 70%;
+      bottom: initial;
+    }
+
+    @media screen and (min-width:1440px) {
+      width: 40%;
+    }
+
+    h1,
+    p {
+      margin: 0;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 22px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+  }
+
+}
