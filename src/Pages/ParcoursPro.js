@@ -1,3 +1,5 @@
+import Credit from "../Components/Credit/Credit";
+
 function ParcoursPro() {
     return (
         <body>
