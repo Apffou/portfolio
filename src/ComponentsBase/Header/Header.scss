@@ -1,5 +1,8 @@
 /* --------------------  Header */
 
+$duration : 0.3s ease-in-out;
+
+
 header {
     background-color: #BA725A;
     height: 150px;
@@ -21,43 +24,92 @@ header {
         background-color: #BA725A;
         right: 0;
         top: 150px;
-        padding: 5px;
-        border-radius: 1px;
         cursor: pointer;
         z-index: 1;
+        width: 40px;
+        height: 46px;
+        transition: 0.5s ease-in-out;
+
+        @media screen and (min-width:768px) {
+            display: none;
+        }
 
 
         /* Icône burger */
-        & span {
+        span {
             display: block;
-            width: 30px;
+
             height: 4px;
             background-color: #FFF;
-            margin: 6px 0;
-            transition: background-color 0.3s ease-in-out;
+            width: 70%;
+            margin: 0 15%;
+            padding: 0;
+            transition: transform $duration , opacity $duration ;
+            position: absolute;
+            top: 50%;
+
+            &:nth-child(1) {
+                transform: translateY(-270%);
+            }
+
+            &:nth-child(3) {
+                transform: translateY(250%);
+            }
+        }
+
+        &.open {
+            span:nth-child(1) {
+                transform: rotate(-45deg);
+                margin: 0 15%;
+                padding: 0;
+                position: absolute;
+                transition: transform $duration ;
+            }
+
+            span:nth-child(2) {
+                opacity: 0;
+                display: none;
+                transition: $duration;
+            }
+
+            span:nth-child(3) {
+                transform: rotate(45deg);
+                margin: 0 15%;
+                padding: 0;
+                position: absolute;
+                top: 50%;
+                transition: transform $duration ;
+            }
         }
     }
 
+    .menu {
+        display: none;
+        text-align: center;
+        transition: 2s ease-in-out;
+        opacity: 0;
+        transition: opacity 0.5s ease-in-out;
 
-}
+        @media screen and (min-width:768px) {
+            display: block;
+        }
 
-.menu {
-    display: none;
-    text-align: center;
+        a {
+            text-decoration: none;
+            display: block;
+            padding: 15px;
+        }
 
-    a {
-        text-decoration: none;
-        color: #333;
-        display: block;
-        padding: 15px;
-    }
+        &.active {
+            display: block;
+            position: fixed;
+            right: 0px;
+            left: 0;
+            background-color: red;
+            opacity: 1;
+            transition: opacity 0.5s ease-in-out;
+        }
 
-    &.active {
-        display: block;
-        position: fixed;
-        right: 0px;
-        left: 0;
-        background-color: #BA725A;
     }
 
 }
