@@ -1,30 +1,5 @@
 @use "variable";
 
-/* --------------------  Header */
-
-header {
-  display: grid;
-  grid-template-columns: 30% 70%;
-  align-items: center;
-  margin-top: 10px;
-  background-color: variable.$bisque;
-  padding-top: 15px;
-  padding-bottom: 15px;
-
-  @media screen and (min-width:768px) {
-    justify-items: center;
-  }
-
-  .logo {
-    width: 100px;
-    height: 100px;
-    background-color: blue;
-    margin-left: 5px;
-  }
-}
-
-
-
 /* --------------------  Général */
 
 body {

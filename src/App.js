@@ -4,18 +4,15 @@ import Bienvenue from './Pages/Bienvenue';
 import ParcoursPro from './Pages/ParcoursPro'
 import Apropos from './Pages/Apropos';
 import Error404 from './Pages/Error404';
-import Nav from './ComponentsBase/Nav/Nav';
 import Projet from './Pages/Projet';
 import Footer from './ComponentsBase/Footer/Footer';
+import Header from './ComponentsBase/Header/Header';
 
 
 function App() {
   return (
     <div>
-      <header>
-        <img src="/assets/images/logo.jpg" alt="" />
-        <Nav></Nav>
-      </header>
+      <Header />
       <Routes>
         <Route path="/" element={<Bienvenue nom="Home" />} />
         <Route path="/ParcoursPro" element={<ParcoursPro nom="Parcours" />} />

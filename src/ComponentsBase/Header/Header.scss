@@ -1,0 +1,63 @@
+/* --------------------  Header */
+
+header {
+    background-color: #BA725A;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+
+
+    img {
+        display: auto;
+    }
+
+
+    .burger-icon {
+        position: fixed;
+        display: block;
+        background-color: #BA725A;
+        right: 0;
+        top: 150px;
+        padding: 5px;
+        border-radius: 1px;
+        cursor: pointer;
+        z-index: 1;
+
+
+        /* Icône burger */
+        & span {
+            display: block;
+            width: 30px;
+            height: 4px;
+            background-color: #FFF;
+            margin: 6px 0;
+            transition: background-color 0.3s ease-in-out;
+        }
+    }
+
+
+}
+
+.menu {
+    display: none;
+    text-align: center;
+
+    a {
+        text-decoration: none;
+        color: #333;
+        display: block;
+        padding: 15px;
+    }
+
+    &.active {
+        display: block;
+        position: fixed;
+        right: 0px;
+        left: 0;
+        background-color: #BA725A;
+    }
+
+}
