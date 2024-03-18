@@ -13,8 +13,8 @@ function Header() {
 
     return (
         <header >
-            <div >
-                <img src="../assets/images/sunshine.png" alt="sunshine" />
+            <div className='nav-desktop'>
+                <img src="../assets/images/sunshine.png" alt="sunshine" className='logo' />
                 <div id="burger-button" onClick={toggleMenu}>
                     <div className={`burger-icon ${isMenuOpen ? 'open' : 'close'}`}>
                         <span></span>

@@ -15,47 +15,58 @@ header {
 
     img {
         display: auto;
+        width: auto;
+        height: 70px;
+
     }
 
-
-    .burger-icon {
-        position: fixed;
-        display: block;
-        background-color: #BA725A;
-        right: 0;
-        top: 150px;
-        cursor: pointer;
-        z-index: 1;
-        width: 40px;
-        height: 46px;
-        transition: 0.5s ease-in-out;
-
-        @media screen and (min-width:768px) {
+    #burger-button {
+        @media (min-width:768px) {
             display: none;
         }
 
 
-        /* Icône burger */
-        span {
+        .burger-icon {
+            position: fixed;
             display: block;
+            background-color: #BA725A;
+            right: 0;
+            top: 150px;
+            cursor: pointer;
+            z-index: 1;
+            width: 40px;
+            height: 46px;
+            transition: 0.5s ease-in-out;
 
-            height: 4px;
-            background-color: #FFF;
-            width: 70%;
-            margin: 0 15%;
-            padding: 0;
-            transition: transform $duration , opacity $duration ;
-            position: absolute;
-            top: 50%;
-
-            &:nth-child(1) {
-                transform: translateY(-270%);
+            @media screen and (min-width:768px) {
+                display: none;
             }
 
-            &:nth-child(3) {
-                transform: translateY(250%);
+
+            /* Icône burger */
+            span {
+                display: block;
+
+                height: 4px;
+                background-color: #FFF;
+                width: 70%;
+                margin: 0 15%;
+                padding: 0;
+                transition: transform $duration , opacity $duration ;
+                position: absolute;
+                top: 50%;
+
+                &:nth-child(1) {
+                    transform: translateY(-270%);
+                }
+
+                &:nth-child(3) {
+                    transform: translateY(250%);
+                }
             }
         }
+
+
 
         &.open {
             span:nth-child(1) {
@@ -86,12 +97,12 @@ header {
     .menu {
         display: none;
         text-align: center;
-        transition: 2s ease-in-out;
         opacity: 0;
-        transition: opacity 0.5s ease-in-out;
+
 
         @media screen and (min-width:768px) {
-            display: block;
+            display: grid;
+            opacity: 1;
         }
 
         a {
@@ -105,11 +116,25 @@ header {
             position: fixed;
             right: 0px;
             left: 0;
-            background-color: red;
+            background-color: #BA725A;
             opacity: 1;
             transition: opacity 0.5s ease-in-out;
         }
 
+    }
+
+}
+
+
+
+.nav-desktop {
+    @media (min-width:768px) {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo {
+        margin: auto;
     }
 
 }
