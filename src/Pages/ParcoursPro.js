@@ -11,24 +11,26 @@ function ParcoursPro() {
                         recruteurs ou des personnes en manque de lecture. Vous trouverez des informations typiques tel que mes formations ou mes compétences.
                     </p>
                     <p>Est ce que j'essaie de remplir ce paragraphe avec des banalités juste pour faire comme si j'avais beaucoup de contenu ? Peut-être ? </p>
-                    <a href=""><div className="button-linkedin">www.linkedin.com/in/anais-zafiriou-lejeune</div></a>
+                    <a href="https://www.linkedin.com/in/anais-zafiriou-lejeune/"><div className="button-linkedin"> N'hésitez pas à me suivre sur Linkedin, c'est par ici !</div></a>
                 </div>
                 <div className="personne">
                     <div className="photo-button">
-                        <img src="/assets/images/portrait.png" alt="" />
+                        <img src="/assets/images/portrait.jpg" alt="Portrait dessiné par hunbloom" />
                         <div className="button"> 8 mars 1990</div>
                     </div>
                     <div className="contact">
-                        <h2>Contact</h2>
-                        <p>Périgueux, France</p>
-                        <p>azedelle.web@gmail.com</p>
+                        <h2>Contact </h2>
+                        <div>
+                            <p>Périgueux, France</p>
+                            <p>azedelle.web@gmail.com</p>
+                        </div>
                     </div>
                 </div>
             </section>
             <section className="Parcours">
                 <h2 className="title">Parcours Professionnel</h2>
                 <section className="formations">
-                    <h2>Formations</h2>
+                    <h2>Cursus</h2>
                     <div className="formations-container">
                         <div className="formation-content">
                             <img src="/assets/images/integratrice.png" alt="" />
