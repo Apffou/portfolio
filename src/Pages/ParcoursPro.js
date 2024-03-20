@@ -11,7 +11,7 @@ function ParcoursPro() {
                         recruteurs ou des personnes en manque de lecture. Vous trouverez des informations typiques tel que mes formations ou mes compétences.
                     </p>
                     <p>Est ce que j'essaie de remplir ce paragraphe avec des banalités juste pour faire comme si j'avais beaucoup de contenu ? Peut-être ? </p>
-                    <a href="https://www.linkedin.com/in/anais-zafiriou-lejeune/"><div className="button-linkedin"> N'hésitez pas à me suivre sur Linkedin, c'est par ici !</div></a>
+                    <a href="https://www.linkedin.com/in/anais-zafiriou-lejeune/"><div className="button-linkedin"> Vous êtes sur Linkedin ? Suivons nous ! </div></a>
                 </div>
                 <div className="personne">
                     <div className="photo-button">

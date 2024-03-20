@@ -69,7 +69,7 @@
     },
     {
         "id": "Pika",
-        "title": "Site web sur l'histoire d'une petite chienne, Pika",
+        "title": "Site web animalier",
         "thumbTitle": "Projet Pika",
         "thumb": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
         "alt": "élément du site web de Pika",
@@ -86,7 +86,7 @@
         ]
     },
     {
-        "id": "??",
+        "id": "Argent Bank",
         "title": "??",
         "thumbTitle": "Projet ??",
         "thumb": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",

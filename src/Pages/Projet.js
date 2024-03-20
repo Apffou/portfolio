@@ -9,14 +9,18 @@ function Projet() {
     const project = projet.find((element) => element.id === params.idprojet)
 
     return (
-        <div>
+        <div className='project'>
             <h1> {project.title} </h1>
-            <img src={project.cover} alt={project.alt} />
-            <h2>Description de la mission</h2>
-            <p>Fin du projet : {project.date} </p>
-            <p> {project.description} </p>
-            <div>tags avec lien vers le projet (button)</div>
-            <div>techno utilisé titre + img du logo </div>
+            <section>
+                <img src={project.cover} alt={project.alt} />
+                <div className='mission'>
+                    <h2>Description de la mission</h2>
+                    <p>Projet terminé  {project.date} </p>
+                    <p> {project.description} </p>
+                    <div>tags avec lien vers le projet (button)</div>
+                    <div>techno utilisé titre + img du logo </div>
+                </div>
+            </section>
         </div>
     )
 

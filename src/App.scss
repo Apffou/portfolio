@@ -255,7 +255,6 @@ h1 {
 
 }
 
-
 .Parcours {
   display: flex;
   flex-direction: column;
@@ -264,8 +263,6 @@ h1 {
   box-sizing: border-box;
   padding: 0 15px;
   margin-bottom: 60px;
-
-
 
   .title {
     font-size: 3em;
@@ -476,9 +473,6 @@ h1 {
       align-items: center;
       justify-content: center;
 
-
-
-
       .software-logo {
         width: 200px;
         height: 137px;
@@ -489,13 +483,10 @@ h1 {
         border-radius: 15px 15px 0 0;
         box-shadow: 0px 4px 9px rgba(0, 0, 0, .12);
 
-
-
         img {
           width: 100px;
           height: auto;
         }
-
       }
 
       h3 {
@@ -526,8 +517,6 @@ h1 {
       .illustrator {
         background-color: #502e0c;
       }
-
-
     }
 
   }
@@ -604,5 +593,36 @@ h1 {
       font-size: 18px;
     }
   }
+
+}
+
+/* --------------------  Page Projet */
+
+.project {
+  margin-top: 50px;
+
+
+  h1 {
+    width: 90%;
+    margin: 25px auto;
+  }
+
+  section {
+    img {
+      display: block;
+      width: 90%;
+      border-radius: 20px 20px 0 0;
+      margin: auto;
+    }
+
+    .mission {
+      width: 90%;
+      box-sizing: border-box;
+      margin: 30px auto;
+      background-color: variable.$white;
+      padding: 1.2em;
+    }
+  }
+
 
 }
