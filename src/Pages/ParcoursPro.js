@@ -1,4 +1,4 @@
-import Credit from "../Components/Credit/Credit";
+
 
 function ParcoursPro() {
     return (
@@ -16,7 +16,6 @@ function ParcoursPro() {
                 <div className="personne">
                     <div className="photo-button">
                         <img src="/assets/images/portrait.jpg" alt="Portrait dessiné par hunbloom" />
-                        <div className="button"> 8 mars 1990</div>
                     </div>
                     <div className="contact">
                         <h2>Contact </h2>

@@ -12,12 +12,14 @@ h3 {
   font-weight: 500;
   margin: 0;
   font-style: normal;
+  color: variable.$titlecolor;
 }
 
 h1 {
   font-family: "Yeseva One", serif;
   font-weight: 500;
   font-style: normal;
+  color: variable.$titlecolor;
 }
 
 
@@ -25,10 +27,14 @@ h1 {
 /* --------------------  Home  */
 
 .section-presentation {
+  margin-top: 20px;
+
   @media screen and (min-width:1440px) {
     display: grid;
     grid-template-columns: 50% 50%;
     align-items: center;
+    margin-top: 0;
+
 
   }
 
@@ -207,15 +213,6 @@ h1 {
         }
       }
 
-      .button {
-        position: absolute;
-        background-color: rgb(251, 204, 17);
-        height: 25px;
-        border-radius: 30px;
-        padding: 10px 50px;
-        text-align: center;
-        top: 75%;
-      }
     }
 
     .contact {
