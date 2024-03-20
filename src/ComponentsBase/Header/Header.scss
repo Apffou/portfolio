@@ -46,7 +46,6 @@ header {
             /* Icône burger */
             span {
                 display: block;
-
                 height: 4px;
                 background-color: #FFF;
                 width: 70%;
@@ -55,6 +54,7 @@ header {
                 transition: transform $duration , opacity $duration ;
                 position: absolute;
                 top: 50%;
+                opacity: 1;
 
                 &:nth-child(1) {
                     transform: translateY(-270%);
@@ -64,34 +64,36 @@ header {
                     transform: translateY(250%);
                 }
             }
-        }
 
+            &.open {
+                span:nth-child(1) {
+                    transform: rotate(-45deg);
+                    margin: 0 15%;
+                    padding: 0;
+                    position: absolute;
+                    transition: transform $duration ;
+                }
 
+                span:nth-child(2) {
+                    opacity: 0;
+                    display: none;
+                    transition: opacity $duration;
+                }
 
-        &.open {
-            span:nth-child(1) {
-                transform: rotate(-45deg);
-                margin: 0 15%;
-                padding: 0;
-                position: absolute;
-                transition: transform $duration ;
-            }
-
-            span:nth-child(2) {
-                opacity: 0;
-                display: none;
-                transition: $duration;
-            }
-
-            span:nth-child(3) {
-                transform: rotate(45deg);
-                margin: 0 15%;
-                padding: 0;
-                position: absolute;
-                top: 50%;
-                transition: transform $duration ;
+                span:nth-child(3) {
+                    transform: rotate(45deg);
+                    margin: 0 15%;
+                    padding: 0;
+                    position: absolute;
+                    top: 50%;
+                    transition: transform $duration ;
+                }
             }
         }
+
+
+
+
     }
 
     .menu {
