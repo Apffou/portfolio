@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import Nav from '../Nav/Nav';
 import './Header.scss';
+import { Link } from 'react-router-dom';
 
 function Header() {
 
@@ -33,7 +34,7 @@ function Header() {
     return (
         <header >
             <div className='nav-desktop'>
-                <img src="../assets/images/sunshine.png" alt="sunshine" className='logo' />
+                <Link to="/"  ><img src="../assets/images/sunshine.png" alt="sunshine" className='logo' /></Link>
                 <div id="burger-button" onClick={toggleMenu}>
                     <div ref={menuRef} className={`burger-icon ${isMenuOpen ? 'open' : 'close'}`}>
                         <span></span>
