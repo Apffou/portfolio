@@ -13,6 +13,7 @@ h3 {
   margin: 0;
   font-style: normal;
   color: variable.$titlecolor;
+
 }
 
 h1 {
@@ -20,6 +21,10 @@ h1 {
   font-weight: 500;
   font-style: normal;
   color: variable.$titlecolor;
+}
+
+h2 {
+  font-size: 2.2em;
 }
 
 
@@ -34,8 +39,6 @@ h1 {
     grid-template-columns: 50% 50%;
     align-items: center;
     margin-top: 0;
-
-
   }
 
   .presentation-img {
@@ -89,8 +92,6 @@ h1 {
     padding: 40px 0;
     text-align: center;
   }
-
-
 }
 
 .section-thumbs {
@@ -249,7 +250,6 @@ h1 {
 
       @media screen and (min-width:1920px) {
         font-size: 1.2em;
-
       }
     }
 
@@ -281,7 +281,6 @@ h1 {
 
     @media screen and (min-width:768px) {
       display: grid;
-
     }
 
     .formations-container {
@@ -308,7 +307,6 @@ h1 {
           justify-content: space-between;
         }
 
-
         img {
           width: 200px;
           height: auto;
@@ -333,8 +331,6 @@ h1 {
         text-align: center;
       }
     }
-
-
   }
 
   .skills {
@@ -388,8 +384,6 @@ h1 {
           width: 100px;
           height: auto;
         }
-
-
       }
 
       /* couleurs skills*/
@@ -603,18 +597,21 @@ h1 {
 .project {
   margin-top: 50px;
 
-
   h1 {
     width: 90%;
     margin: 25px auto;
   }
 
   section {
+    @media (min-width:1440px) {}
+
     img {
       display: block;
       width: 90%;
       border-radius: 20px 20px 0 0;
       margin: auto;
+
+      @media (min-width:1440px) {}
     }
 
     .mission {
@@ -623,8 +620,8 @@ h1 {
       margin: 30px auto;
       background-color: variable.$white;
       padding: 1.2em;
+
+      @media (min-width:1440px) {}
     }
   }
-
-
 }

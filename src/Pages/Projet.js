@@ -15,9 +15,11 @@ function Projet() {
                 <img src={project.cover} alt={project.alt} />
                 <div className='mission'>
                     <h2>Description de la mission</h2>
-                    <p>Projet terminé  {project.date} </p>
+                    <p>Projet terminé {project.date} </p>
                     <p> {project.description} </p>
-                    <div>tags avec lien vers le projet (button)</div>
+                    <h3>Pour voir le projet : </h3>
+                    <div> lien vers le projet (button)</div>
+                    <h3>Compétences utilisés</h3>
                     <div>techno utilisé titre + img du logo </div>
                 </div>
             </section>
