@@ -29,22 +29,23 @@ function ParcoursPro() {
             <section className="Parcours">
                 <h2 className="title">Parcours Professionnel</h2>
                 <section className="formations">
-                    <h2>Cursus</h2>
+                    <h2>Mon cursus</h2>
                     <div className="formations-container">
                         <div className="formation-content">
-                            <img src="/assets/images/integratrice.png" alt="" />
-                            <h3>Intégratrice Web </h3>
-                            <span>2023/2024</span>
+                            <img src="/assets/images/infographiste.png" alt="" />
+                            <h3>Infographiste Mise en Page </h3>
+                            <span>2016/2017</span>
                         </div>
                         <div className="formation-content">
                             <img src="/assets/images/web-design.png" alt="" />
                             <h3>Web Design </h3>
                             <span>2021/2022</span>
                         </div>
+
                         <div className="formation-content">
-                            <img src="/assets/images/infographiste.png" alt="" />
-                            <h3>Infographiste Mise en Page </h3>
-                            <span>2016/2017</span>
+                            <img src="/assets/images/integratrice.png" alt="" />
+                            <h3>Intégratrice Web </h3>
+                            <span>2023/2024</span>
                         </div>
                     </div>
 

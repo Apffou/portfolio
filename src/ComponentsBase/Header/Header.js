@@ -34,7 +34,7 @@ function Header() {
     return (
         <header >
             <div className='nav-desktop'>
-                <Link to="/"  ><img src="../assets/images/sunshine.png" alt="sunshine" className='logo' /></Link>
+                <Link to="/" className='lien-logo' ><img src="../assets/images/sunshine.png" alt="sunshine" className='logo' /></Link>
                 <div id="burger-button" onClick={toggleMenu}>
                     <div ref={menuRef} className={`burger-icon ${isMenuOpen ? 'open' : 'close'}`}>
                         <span></span>

@@ -168,6 +168,7 @@ h1 {
       color: #FFF;
       text-decoration: none;
       cursor: pointer;
+      height: 0px;
 
       .button-linkedin {
         background-color: rgb(206, 102, 37);
@@ -240,6 +241,7 @@ h1 {
     h2 {
       font-size: 2.7em;
       justify-self: center;
+      color: variable.$white;
     }
 
     p {
