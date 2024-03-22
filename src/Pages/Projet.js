@@ -1,3 +1,4 @@
+
 import projet from '../Projets.json';
 import { useParams } from "react-router-dom";
 
@@ -17,10 +18,20 @@ function Projet() {
                     <h2>Description de la mission</h2>
                     <p>Projet terminé {project.date} </p>
                     <p> {project.description} </p>
-                    <h3>Pour voir le projet : </h3>
-                    <div> lien vers le projet (button)</div>
                     <h3>Compétences utilisés</h3>
-                    <div>techno utilisé titre + img du logo </div>
+                    <div>techno utilisé titre </div>
+                    <h3>En savoir plus : </h3>
+                    <div className='link-projets'>
+                        <a href={project.linkGithub} className='icon-projet'>
+                            <img src="../../assets/images/github-link.png" alt="icon github" className='icon' />
+                            <span>Voir le projet</span>
+                        </a>
+                        <a href={project.linkPage} className='icon-projet'>
+                            <img src="../../assets/images/page-web.png" alt="icon site web" className='icon' />
+                            <span>Voir le site</span>
+                        </a>
+                    </div>
+
                 </div>
             </section>
         </div>
