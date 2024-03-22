@@ -33,9 +33,7 @@ function Projet() {
                             <img src="../../assets/images/page-web.png" alt="icon site web" className='icon' />
                             <span>Voir le site</span>
                         </a>
-
                     </div>
-
                 </div>
             </section>
         </div>
