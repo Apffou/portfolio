@@ -28,6 +28,10 @@ h3 {
   font-size: 1.7em;
 }
 
+p {
+  font-size: 1.3em;
+}
+
 
 /* --------------------  Home  */
 
@@ -614,6 +618,13 @@ h3 {
 
       @media (min-width:1440px) {}
 
+      .tags-container {
+        margin: 20px 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+      }
+
       .link-projets {
         padding: 20px 0;
         display: flex;
@@ -638,7 +649,7 @@ h3 {
 
           span {
             font-weight: 500;
-            font-size: 1.1em;
+            font-size: 1.3em;
           }
         }
       }

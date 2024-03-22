@@ -1,4 +1,5 @@
 
+import Tags from '../Components/Tags/Tags';
 import projet from '../Projets.json';
 import { useParams } from "react-router-dom";
 
@@ -19,7 +20,9 @@ function Projet() {
                     <p>Projet terminé {project.date} </p>
                     <p> {project.description} </p>
                     <h3>Compétences utilisés</h3>
-                    <div>techno utilisé titre </div>
+                    <div className='tags-container'>
+                        {project.tags.map((tags) => <Tags key={tags} nom={tags} />)}
+                    </div>
                     <h3>En savoir plus : </h3>
                     <div className='link-projets'>
                         <a href={project.linkGithub} className='icon-projet'>
@@ -30,6 +33,7 @@ function Projet() {
                             <img src="../../assets/images/page-web.png" alt="icon site web" className='icon' />
                             <span>Voir le site</span>
                         </a>
+
                     </div>
 
                 </div>
