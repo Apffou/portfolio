@@ -1,4 +1,5 @@
 @use "variable";
+@use "mixins";
 
 /* --------------------  Général */
 
@@ -8,25 +9,24 @@ body {
 
 h2,
 h3 {
-  font-family: "Yeseva One", serif;
-  font-weight: 500;
+  @include mixins.font;
   margin: 0;
-  font-style: normal;
   color: variable.$titlecolor;
-
 }
 
 h1 {
-  font-family: "Yeseva One", serif;
-  font-weight: 500;
-  font-style: normal;
+  @include mixins.font;
   color: variable.$titlecolor;
+  font-size: 2em;
 }
 
 h2 {
   font-size: 2.2em;
 }
 
+h3 {
+  font-size: 1.7em;
+}
 
 
 /* --------------------  Home  */
@@ -227,13 +227,11 @@ h2 {
 
       @media screen and (min-width:768px) {
         width: 70%;
-
       }
 
       @media screen and (min-width:1920px) {
         width: 70%;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        @include mixins.gridTwoColumns;
         align-items: center;
 
       }
@@ -267,7 +265,7 @@ h2 {
   margin-bottom: 60px;
 
   .title {
-    font-size: 3em;
+    font-size: 2.5em;
     text-align: left;
     margin: 60px 0px;
   }
@@ -352,8 +350,7 @@ h2 {
       gap: 50px;
 
       @media screen and (min-width:768px) {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        @include mixins.gridTwoColumns;
         row-gap: 60px;
         column-gap: 85px;
       }
@@ -441,11 +438,9 @@ h2 {
       gap: 40px;
 
       @media screen and (min-width:768px) {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        @include mixins.gridTwoColumns;
         row-gap: 60px;
         column-gap: 85px;
-
       }
 
       @media screen and (min-width:1024px) {
@@ -456,10 +451,6 @@ h2 {
       @media screen and (min-width:1440px) {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         column-gap: 125px;
-      }
-
-      @media screen and (min-width:1920px) {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
       }
     }
 
@@ -622,6 +613,35 @@ h2 {
       padding: 1.2em;
 
       @media (min-width:1440px) {}
+
+      .link-projets {
+        padding: 20px 0;
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+
+        .icon-projet {
+          display: flex;
+          flex-direction: column;
+          text-decoration: none;
+          align-items: center;
+          gap: 10px;
+          color: variable.$browncolor;
+          cursor: pointer;
+
+          .icon {
+            width: 90px;
+            height: auto;
+            display: inline-block;
+            overflow: visible;
+          }
+
+          span {
+            font-weight: 500;
+            font-size: 1.1em;
+          }
+        }
+      }
     }
   }
 }

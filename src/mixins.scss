@@ -1,0 +1,12 @@
+/******************* Couleurs */
+
+@mixin font {
+    font-family: "Yeseva One", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+@mixin gridTwoColumns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

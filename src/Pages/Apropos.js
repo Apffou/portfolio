@@ -1,20 +1,11 @@
-import Credit from "../Components/Credit/Credit";
 
 function Apropos() {
     return (
         <div>
-            <h1>MOI MOI MOI </h1>
-            <p>hfuzofhziejfzoeihfoierhgrieghoiqremgoirhg
-                hiuerhgoeirhgoiergpergjpoergjpsojhgmsj roijg sregj
-                jogri jgeorig roigj oeirgj orieg jreogj eorkgj proeg jeaninejiogje rogij reg
-                jiog jreogj ermogijreoi omreig jmpregj
-                oi
-                eroigjetoihjoitsregj msitrjg
-                jtgisej hgishtjm isrtjhm opsthopjsùtpohj
-            </p>
-            <div>
-                <Credit credit="jeanine" />
-            </div>
+            <h1>Quelques chiffres clés (en mode infographie et des gros chiffres) </h1>
+            <h2>Mes objectifs de vie </h2>
+            <h2>Mes Hobbies (Photographie) (Jeux videos) (Doublage Français) (Cinéma/Séries) (Lire) </h2>
+
         </div>
     )
 }
