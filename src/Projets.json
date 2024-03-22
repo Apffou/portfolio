@@ -7,7 +7,7 @@
         "alt": "visuel du site web Booki",
         "explication": "Structure et style de la page web avec HTML et CSS",
         "date": "en août 2023.",
-        "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+        "cover": "../assets/images/ecran.png",
         "linkPage": "https://apffou.github.io/Booki/",
         "linkGithub": "https://github.com/Apffou/Booki",
         "description": "Ce projet avait pour mission de créer une page via une maquette fourni. Elle devait être responsive mobile, tablette et desktop. Les conditions à respecter étaient de simuler un bouton rechercher, de mettre en hoover les filtres et le menu.",

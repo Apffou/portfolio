@@ -13,8 +13,10 @@ function Projet() {
     return (
         <div className='project'>
             <h1> {project.title} </h1>
-            <section>
-                <img src={project.cover} alt={project.alt} />
+            <section className='section-description'>
+                <div className='cover-container'>
+                    <img src={project.cover} alt={project.alt} className='cover' />
+                </div>
                 <div className='mission'>
                     <h2>Description de la mission</h2>
                     <p>Projet terminé {project.date} </p>

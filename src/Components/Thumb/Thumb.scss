@@ -3,6 +3,7 @@
     width: 325px;
     height: 405px;
 
+
     a {
         text-decoration: none;
         color: rgb(59, 59, 59);
@@ -37,6 +38,14 @@
             padding: 0 15px;
         }
 
+        .title {
+            font-size: 1.4em;
+        }
+
+        .explication {
+            font-size: 1.1em;
+            padding: 5px;
+        }
 
     }
 }

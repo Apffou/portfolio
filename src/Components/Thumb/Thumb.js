@@ -10,8 +10,8 @@ function Thumb(props) {
 
                 </div>
                 <div className='card-texte'>
-                    <h3>{props.projet.thumbTitle}</h3>
-                    <p>{props.projet.explication}</p>
+                    <h3 className='title'>{props.projet.thumbTitle}</h3>
+                    <p className='explication'>{props.projet.explication}</p>
                 </div>
             </Link>
         </div>
