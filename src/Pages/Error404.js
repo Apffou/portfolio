@@ -4,7 +4,7 @@ function Error404() {
     return (
         <div className="section-erreur">
 
-            <div className="test">
+            <div className="oups">
                 <h1>OUPS !</h1>
                 <p>Souhaitez vous revenir à la page <Link to="/"> d'accueil</Link> ? </p>
             </div>
