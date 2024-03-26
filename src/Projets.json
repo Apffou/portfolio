@@ -12,8 +12,16 @@
         "linkGithub": "https://github.com/Apffou/Booki",
         "description": "Ce projet avait pour mission de créer une page via une maquette fourni. Elle devait être responsive mobile, tablette et desktop. Les conditions à respecter étaient de simuler un bouton rechercher, de mettre en hoover les filtres et le menu.",
         "tags": [
-            "HTML",
-            "CSS"
+            {
+                "title": "HTML",
+                "img_src": "html.png",
+                "img_alt": "Logo du langage Html"
+            },
+            {
+                "title": "CSS",
+                "img_src": "css-3.png",
+                "img_alt": "Logo du langage CSS"
+            }
         ]
     },
     {
@@ -29,9 +37,21 @@
         "linkGithub": "https://github.com/Apffou/Ohmyfood",
         "description": "Ce projet avait pour mission de créer un site avec une maquette à respecter. Elle devait être responsive et créer en mobile first. Les conditions à respecter étaient de créer un loader, de faire des animations css et keyframe fluide en hoover. ",
         "tags": [
-            "HTML",
-            "CSS",
-            "SASS"
+            {
+                "title": "HTML",
+                "img_src": "html.png",
+                "img_alt": "Logo du langage Html"
+            },
+            {
+                "title": "CSS",
+                "img_src": "css-3.png",
+                "img_alt": "Logo du langage CSS"
+            },
+            {
+                "title": "Sass",
+                "img_src": "sass.png",
+                "img_alt": "Logo du langage Sass"
+            }
         ]
     },
     {
@@ -47,9 +67,21 @@
         "linkGithub": "https://github.com/Apffou/NinaCarducci",
         "description": "Ce projet avait pour mission d'optimiser le site web pour qu'il soit plus accessible aux utilisateurs comme un temps de chargement plus rapide en réduisant le poids des images. Les conditions à respecter étaient d'avoir un score de 90 minimum sur LightHouse (outil permetant de mesurer la qualité d'une page Web). Il fallait également pratiquer le référencement naturel (SEO) par exemple en mettant une balise title, en renommant les images ou en remplissant les balises ALT. ",
         "tags": [
-            "HTML",
-            "CSS",
-            "Lighthouse"
+            {
+                "title": "HTML",
+                "img_src": "html.png",
+                "img_alt": "Logo du langage Html"
+            },
+            {
+                "title": "CSS",
+                "img_src": "css-3.png",
+                "img_alt": "Logo du langage CSS"
+            },
+            {
+                "title": "LightHouse",
+                "img_src": "lighthouse.png",
+                "img_alt": "Logo de l'outil LightHouse"
+            }
         ]
     },
     {
@@ -65,10 +97,26 @@
         "linkGithub": "https://github.com/Apffou/Kasa",
         "description": "Ce projet avait pour mission de faire la refonte du site Web Kasa à partir d'une base de donnée. Les conditions pour réussir ce projet étaient d'utiliser React pour le front-end pour créer des composants et des routes pour naviguer sur le site.  Il a été intéressant de construire des composants avec la suntaxe particulière de React.  ",
         "tags": [
-            "HTML",
-            "SASS",
-            "Javascript",
-            "React"
+            {
+                "title": "HTML",
+                "img_src": "html.png",
+                "img_alt": "Logo du langage Html"
+            },
+            {
+                "title": "Sass",
+                "img_src": "sass.png",
+                "img_alt": "Logo du langage Sass"
+            },
+            {
+                "title": "JavaScript",
+                "img_src": "javascript.png",
+                "img_alt": "Logo du langage JavaScript"
+            },
+            {
+                "title": "React",
+                "img_src": "react.png",
+                "img_alt": "Logo du langage/Framework React"
+            }
         ]
     },
     {
@@ -84,10 +132,26 @@
         "linkGithub": "https://github.com/Apffou/Pika",
         "description": "Ce projet personnel était de continuer à m'exercer sur ce que j'avais appris pendant ma formation. J'ai pu m'exercer sur React, la mise en page et les animations CSS. J'ai également appris à déployer un site React sur Github Pages.  ",
         "tags": [
-            "HTML",
-            "SASS",
-            "Javascript",
-            "React"
+            {
+                "title": "HTML",
+                "img_src": "html.png",
+                "img_alt": "Logo du langage Html"
+            },
+            {
+                "title": "Sass",
+                "img_src": "sass.png",
+                "img_alt": "Logo du langage Sass"
+            },
+            {
+                "title": "JavaScript",
+                "img_src": "javascript.png",
+                "img_alt": "Logo du langage JavaScript"
+            },
+            {
+                "title": "React",
+                "img_src": "react.png",
+                "img_alt": "Logo du langage/Framework React"
+            }
         ]
     },
     {
@@ -103,11 +167,31 @@
         "linkGithub": "https://github.com/Apffou/argent-bank",
         "description": "Ce projet ??  ",
         "tags": [
-            "HTML",
-            "SASS",
-            "Javascript",
-            "React",
-            "Redux"
+            {
+                "title": "HTML",
+                "img_src": "html.png",
+                "img_alt": "Logo du langage Html"
+            },
+            {
+                "title": "Sass",
+                "img_src": "sass.png",
+                "img_alt": "Logo du langage Sass"
+            },
+            {
+                "title": "JavaScript",
+                "img_src": "javascript.png",
+                "img_alt": "Logo du langage JavaScript"
+            },
+            {
+                "title": "React",
+                "img_src": "react.png",
+                "img_alt": "Logo du langage/Framework React"
+            },
+            {
+                "title": "Redux",
+                "img_src": "redux.png",
+                "img_alt": "Logo de la bibliothèque redux"
+            }
         ]
     }
 ]
