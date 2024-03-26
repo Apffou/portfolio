@@ -6,14 +6,14 @@
         "thumb": "../assets/images/minia/booki-projet.jpg",
         "alt": "visuel du site web Booki",
         "explication": "Structure et style de la page web avec HTML et CSS",
-        "date": "en août 2023.",
-        "cover": "../assets/images/ecran.png",
+        "date": "Août 2023",
+        "cover": "../assets/images/ecran-booki.png",
         "linkPage": "https://apffou.github.io/Booki/",
         "linkGithub": "https://github.com/Apffou/Booki",
         "description": "Ce projet avait pour mission de créer une page via une maquette fourni. Elle devait être responsive mobile, tablette et desktop. Les conditions à respecter étaient de simuler un bouton rechercher, de mettre en hoover les filtres et le menu.",
         "tags": [
-            "HTML5",
-            "CSS3"
+            "HTML",
+            "CSS"
         ]
     },
     {
@@ -23,14 +23,14 @@
         "thumb": "../assets/images/minia/ohmyfood-projet.webp",
         "alt": "visuel du site web OhMyFood",
         "explication": "Apprentissage du mobile first et les animations CSS",
-        "date": "en octobre 2023.",
-        "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+        "date": "Octobre 2023",
+        "cover": "../assets/images/ecran-ohmyfood.png",
         "linkPage": "https://apffou.github.io/Ohmyfood/",
         "linkGithub": "https://github.com/Apffou/Ohmyfood",
         "description": "Ce projet avait pour mission de créer un site avec une maquette à respecter. Elle devait être responsive et créer en mobile first. Les conditions à respecter étaient de créer un loader, de faire des animations css et keyframe fluide en hoover. ",
         "tags": [
-            "HTML5",
-            "CSS3",
+            "HTML",
+            "CSS",
             "SASS"
         ]
     },
@@ -41,15 +41,15 @@
         "thumb": "../assets/images/minia/carducci-projet.webp",
         "alt": "visuel du site web de la photographe Nina Carducci",
         "explication": "Étude du référencement naturel et de l'accessibilité",
-        "date": "en décembre 2023.",
-        "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+        "date": "Décembre 2023",
+        "cover": "../assets/images/ecran-carducci.png",
         "linkPage": "https://apffou.github.io/NinaCarducci/",
         "linkGithub": "https://github.com/Apffou/NinaCarducci",
-        "description": "Ce projet avait pour mission d'optimiser le site web pour qu'il soit plus accessible aux utilisateurs comme un temps de chargement plus rapide en réduisant le poids des images. Les conditions à respecter étaient d'avoir un score de 90 minimum sur LightHouse (outil permetant de mesurer la qualité d'une page Web). Il fallait également pratiquer le référencement naturel (SEO) par exemple en mettant une balise title, en renommant les images ou en remplissant les balises ALT ",
+        "description": "Ce projet avait pour mission d'optimiser le site web pour qu'il soit plus accessible aux utilisateurs comme un temps de chargement plus rapide en réduisant le poids des images. Les conditions à respecter étaient d'avoir un score de 90 minimum sur LightHouse (outil permetant de mesurer la qualité d'une page Web). Il fallait également pratiquer le référencement naturel (SEO) par exemple en mettant une balise title, en renommant les images ou en remplissant les balises ALT. ",
         "tags": [
-            "HTML5",
-            "CSS3",
-            "Google LightHouse"
+            "HTML",
+            "CSS",
+            "Lighthouse"
         ]
     },
     {
@@ -59,13 +59,13 @@
         "thumb": "../assets/images/minia/kasa-projet.webp",
         "alt": "élément du visuel du site web Kasa",
         "explication": "Création d'un site web avec React Natif",
-        "date": "en janvier 2024.",
-        "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+        "date": "Janvier 2024",
+        "cover": "../assets/images/ecran-kasa.png",
         "linkPage": "",
         "linkGithub": "https://github.com/Apffou/Kasa",
         "description": "Ce projet avait pour mission de faire la refonte du site Web Kasa à partir d'une base de donnée. Les conditions pour réussir ce projet étaient d'utiliser React pour le front-end pour créer des composants et des routes pour naviguer sur le site.  Il a été intéressant de construire des composants avec la suntaxe particulière de React.  ",
         "tags": [
-            "HTML5",
+            "HTML",
             "SASS",
             "Javascript",
             "React"
@@ -78,13 +78,13 @@
         "thumb": "../assets/images/minia/pika-projet.webp",
         "alt": "Photo d'une chienne avec une paire de lunette",
         "explication": "Entraînement sur React et de la mise en ligne via Github Pages",
-        "date": "en février 2024.",
-        "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+        "date": "Février 2024",
+        "cover": "../assets/images/ecran-pika.png",
         "linkPage": "https://apffou.github.io/Pika/",
         "linkGithub": "https://github.com/Apffou/Pika",
         "description": "Ce projet personnel était de continuer à m'exercer sur ce que j'avais appris pendant ma formation. J'ai pu m'exercer sur React, la mise en page et les animations CSS. J'ai également appris à déployer un site React sur Github Pages.  ",
         "tags": [
-            "HTML5",
+            "HTML",
             "SASS",
             "Javascript",
             "React"
@@ -97,13 +97,13 @@
         "thumb": "../assets/images/minia/bank-projet.webp",
         "alt": "Pot de fleur avec des pièces de monnaie dedans",
         "explication": "Gestion de la connexion utilisateur avec Redux Toolkit",
-        "date": "en mars 2024.",
-        "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
-        "linkPage": "#",
+        "date": "Mars 2024",
+        "cover": "../assets/images/ecran-bank.png",
+        "linkPage": "",
         "linkGithub": "https://github.com/Apffou/argent-bank",
         "description": "Ce projet ??  ",
         "tags": [
-            "HTML5",
+            "HTML",
             "SASS",
             "Javascript",
             "React",

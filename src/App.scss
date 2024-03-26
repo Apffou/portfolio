@@ -17,15 +17,15 @@ h3 {
 h1 {
   @include mixins.font;
   color: variable.$titlecolor;
-  font-size: 2em;
-}
-
-h2 {
   font-size: 2.2em;
 }
 
-h3 {
+h2 {
   font-size: 1.7em;
+}
+
+h3 {
+  font-size: 1.4em;
 }
 
 p {
@@ -279,7 +279,6 @@ p {
     flex-direction: column;
     align-items: center;
     gap: 50px;
-    margin-bottom: 60px;
 
     @media screen and (min-width:768px) {
       display: grid;
@@ -325,7 +324,6 @@ p {
       }
     }
 
-
     h2 {
       font-size: 2.2em;
 
@@ -335,12 +333,13 @@ p {
     }
   }
 
-  .skills {
+  .skills-soft {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 50px;
+    margin-top: 70px;
 
     h2 {
       font-size: 2.2em;
@@ -350,7 +349,6 @@ p {
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
       gap: 50px;
 
       @media screen and (min-width:768px) {
@@ -370,148 +368,10 @@ p {
         column-gap: 125px;
       }
 
-
-      .skills-logo {
-        width: 200px;
-        height: 137px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        border-radius: 15px 15px 0 0;
-        box-shadow: 0px 4px 9px rgba(0, 0, 0, .12);
-
-        img {
-          width: 100px;
-          height: auto;
-        }
-      }
-
-      /* couleurs skills*/
-
-      .html {
-        background-color: #FC490B;
-      }
-
-      .css {
-        background-color: #2965f1;
-      }
-
-      .sass {
-        background-color: #CD6899;
-      }
-
-      .javascript {
-        background-color: #F7DF1E;
-      }
-
-      .react {
-        background-color: #61DAFB;
-      }
-
-      h3 {
-        margin: 0;
-        display: block;
-        background-color: #FFF;
-        width: 200px;
-        height: 62px;
-        border-radius: 0 0 15px 15px;
-        line-height: 62px;
-        text-align: center;
-        box-shadow: 0px 4px 9px rgba(0, 0, 0, .12);
-      }
     }
-  }
-
-  .software {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 40px;
-    margin-top: 70px;
-
-    h2 {
-      font-size: 2.2em;
-    }
-
-    .software-container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 40px;
-
-      @media screen and (min-width:768px) {
-        @include mixins.gridTwoColumns;
-        row-gap: 60px;
-        column-gap: 85px;
-      }
-
-      @media screen and (min-width:1024px) {
-        grid-template-columns: 1fr 1fr 1fr;
-        column-gap: 125px;
-      }
-
-      @media screen and (min-width:1440px) {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        column-gap: 125px;
-      }
-    }
-
-    .software-content {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-
-      .software-logo {
-        width: 200px;
-        height: 137px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        border-radius: 15px 15px 0 0;
-        box-shadow: 0px 4px 9px rgba(0, 0, 0, .12);
-
-        img {
-          width: 100px;
-          height: auto;
-        }
-      }
-
-      h3 {
-        margin: 0;
-        display: block;
-        background-color: #FFF;
-        width: 200px;
-        height: 62px;
-        border-radius: 0 0 15px 15px;
-        line-height: 62px;
-        text-align: center;
-        box-shadow: 0px 4px 9px rgba(0, 0, 0, .12);
-      }
-
-      /* couleurs skoftware*/
-      .vs-code {
-        background-color: #1070B3;
-      }
-
-      .figma {
-        background-color: #ff7262;
-      }
-
-      .photoshop {
-        background-color: #042d4f;
-      }
-
-      .illustrator {
-        background-color: #502e0c;
-      }
-    }
-
   }
 }
+
 
 
 
@@ -550,7 +410,7 @@ p {
 
   }
 
-  .test {
+  .oups {
     position: absolute;
     width: 80%;
     background-color: #FFF;
@@ -594,7 +454,6 @@ p {
 
   h1 {
     width: 90%;
-    margin: 25px auto;
   }
 
   .section-description {
@@ -604,7 +463,6 @@ p {
     }
 
     .cover-container {
-      background-color: variable.$bluecolor;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -624,10 +482,10 @@ p {
       background-color: variable.$white;
       padding: 1.2em;
       border-radius: 20px 20px 0 0;
-      box-shadow: 5px 8px 2px #807c7c;
+      box-shadow: 3px 3px 12px #807c7c;
 
       @media (min-width:1920px) {
-        border-radius: 0 20px 20px 0;
+        border-radius: 20px 0px 0px 20px;
         display: flex;
         flex-direction: column;
         justify-content: center;
