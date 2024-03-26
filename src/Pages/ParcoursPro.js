@@ -1,3 +1,4 @@
+import SimpleCard from "../Components/SimpleCard/SimpleCard";
 
 
 function ParcoursPro() {
@@ -50,86 +51,23 @@ function ParcoursPro() {
                     </div>
 
                 </section>
-                <section className="skills">
+                <section className="skills-soft">
                     <h2>Mes compétences</h2>
-                    <div className="skills-container">
-                        <div className="skills-content ">
-                            <div className="skills-logo html">
-                                <img src="/assets/images/html.png" alt="" />
-                            </div>
-                            <h3>
-                                HTML
-                            </h3>
-                        </div>
-                        <div className="skills-content">
-                            <div className="skills-logo css">
-                                <img src="/assets/images/css-3.png" alt="" />
-                            </div>
-                            <h3>
-                                CSS
-                            </h3>
-                        </div>
-                        <div className="skills-content">
-                            <div className="skills-logo sass">
-                                <img src="/assets/images/sass.png" alt="" />
-                            </div>
-                            <h3>
-                                Sass
-                            </h3>
-                        </div>
-                        <div className="skills-content">
-                            <div className="skills-logo javascript">
-                                <img src="/assets/images/javascript.png" alt="" />
-                            </div>
-                            <h3>
-                                Javascript
-                            </h3>
-                        </div>
-                        <div className="skills-content">
-                            <div className="skills-logo react">
-                                <img src="/assets/images/react.png" alt="" />
-                            </div>
-                            <h3>
-                                React
-                            </h3>
-                        </div>
+                    <div className="skills-soft-container">
+                        <SimpleCard src="html.png" alt="Logo du langage Html" title="HTML" />
+                        <SimpleCard src="css-3.png" alt="Logo du langage CSS" title="CSS" />
+                        <SimpleCard src="sass.png" alt="Logo du langage SASS" title="Sass" />
+                        <SimpleCard src="javascript.png" alt="Logo du langage JavaScript" title="JavaScript" />
+                        <SimpleCard src="react.png" alt="Logo du langage React" title="React" />
                     </div>
                 </section>
-                <section className="software">
+                <section className="skills-soft">
                     <h2>Mes outils</h2>
-                    <div className="software-container">
-                        <div className="software-content">
-                            <div className="software-logo figma">
-                                <img src="/assets/images/figma.png" alt="" />
-                            </div>
-                            <h3>
-                                Figma
-                            </h3>
-                        </div>
-                        <div className="software-content">
-                            <div className="software-logo photoshop">
-                                <img src="/assets/images/photoshop.png" alt="" />
-                            </div>
-                            <h3>
-                                Photoshop
-                            </h3>
-                        </div>
-                        <div className="software-content">
-                            <div className="software-logo illustrator">
-                                <img src="/assets/images/illustrator.png" alt="" />
-                            </div>
-                            <h3>
-                                Illustrator
-                            </h3>
-                        </div>
-                        <div className="software-content">
-                            <div className="software-logo vs-code">
-                                <img src="/assets/images/vs-code.png" alt="" />
-                            </div>
-                            <h3>
-                                VS Code
-                            </h3>
-                        </div>
+                    <div className="skills-soft-container">
+                        <SimpleCard src="figma.png" alt="Logo du logiciel Figma" title="Figma" />
+                        <SimpleCard src="photoshop.png" alt="Logo du logiciel Photoshop" title="Photoshop" />
+                        <SimpleCard src="illustrator.png" alt="Logo du logiciel Illustrator" title="Illustrator" />
+                        <SimpleCard src="vs-code.png" alt="Logo du logiciel VS Code" title="VS-code" />
                     </div>
                 </section>
             </section>
