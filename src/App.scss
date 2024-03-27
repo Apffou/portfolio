@@ -1,5 +1,6 @@
 @use "variable";
 @use "mixins";
+@use "keyframes";
 
 /* --------------------  Général */
 
@@ -74,6 +75,7 @@ p {
       margin: 0 auto;
       max-width: 60%;
       text-align: center;
+
     }
 
     .presentation-paragr {
@@ -173,24 +175,36 @@ p {
     }
 
     a {
+      display: inline-block;
       color: #FFF;
       text-decoration: none;
       cursor: pointer;
+      margin-top: 25px;
+      border-radius: 30px;
 
       .button-linkedin {
-        background-color: rgb(206, 102, 37);
+        box-sizing: content-box;
+        background-color: #ABD4CB;
+        color: black;
+        font-weight: 500;
         height: 30px;
         line-height: 30px;
         border-radius: 30px;
         padding: 10px 20px;
         text-align: center;
-        margin-top: 25px;
         margin-bottom: 60px;
+        border: 2px solid #fff;
 
         @media (min-width:1024px) {
           margin-bottom: 0px;
         }
+
+        &:hover {
+          animation: heartbeat 1.5s ease-in-out infinite both;
+        }
       }
+
+
     }
   }
 
