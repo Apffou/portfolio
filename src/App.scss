@@ -11,12 +11,12 @@ h2,
 h3 {
   @include mixins.font;
   margin: 0;
-  color: variable.$titlecolor;
+  color: variable.$secondColor;
 }
 
 h1 {
   @include mixins.font;
-  color: variable.$titlecolor;
+  color: variable.$secondColor;
   font-size: 2.2em;
 }
 
@@ -89,12 +89,13 @@ p {
 }
 
 .section-projets {
-  background-color: variable.$bluecolor;
+  background-color: variable.$secondColor;
   padding-bottom: 50px;
 
   h2 {
     padding: 40px 0;
     text-align: center;
+    color: variable.$second-title-color
   }
 }
 
@@ -123,7 +124,7 @@ p {
   width: 100%;
   height: auto;
   padding: 40px 15px;
-  background-color: #9BC3BB;
+  background-color: variable.$secondColor;
   box-sizing: border-box;
 
   @media screen and (min-width:1024px) {
@@ -146,6 +147,7 @@ p {
       font-size: 3em;
       text-align: left;
       margin: 20px 0px;
+      color: variable.$second-title-color;
     }
 
     p {
@@ -153,6 +155,7 @@ p {
       text-align: justify;
       margin: 5px 0;
       font-size: 1em;
+      color: variable.$second-text-color;
 
       @media screen and (min-width:768px) {
         max-width: 80%;
@@ -173,7 +176,6 @@ p {
       color: #FFF;
       text-decoration: none;
       cursor: pointer;
-      height: 0px;
 
       .button-linkedin {
         background-color: rgb(206, 102, 37);
@@ -184,6 +186,10 @@ p {
         text-align: center;
         margin-top: 25px;
         margin-bottom: 60px;
+
+        @media (min-width:1024px) {
+          margin-bottom: 0px;
+        }
       }
     }
   }
@@ -222,7 +228,7 @@ p {
     }
 
     .contact {
-      background-color: variable.$browncolor;
+      background-color: variable.$firstColor;
       color: variable.$white;
       padding: 15px;
       box-sizing: border-box;
@@ -509,7 +515,7 @@ p {
           text-decoration: none;
           align-items: center;
           gap: 10px;
-          color: variable.$browncolor;
+          color: variable.$firstColor;
           cursor: pointer;
 
           .icon {
@@ -579,6 +585,16 @@ p {
         display: flex;
         flex-wrap: wrap;
         gap: 30px;
+
+        .skills-soft-content {
+          width: 80px;
+          height: 80px;
+
+          h3 {
+            display: none;
+          }
+        }
+
       }
 
       .link-projets {
@@ -593,7 +609,7 @@ p {
           text-decoration: none;
           align-items: center;
           gap: 10px;
-          color: variable.$browncolor;
+          color: variable.$firstColor;
           cursor: pointer;
 
           .icon {

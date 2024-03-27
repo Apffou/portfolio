@@ -16,7 +16,7 @@ function ParcoursPro() {
                 </div>
                 <div className="personne">
                     <div className="photo-button">
-                        <img src="/assets/images/portrait.jpg" alt="Portrait dessiné par hunbloom" />
+                        <img src="/assets/images/portrait.webp" alt="Portrait dessiné par hunbloom" />
                     </div>
                     <div className="contact">
                         <h2>Contact </h2>

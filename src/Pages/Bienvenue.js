@@ -18,7 +18,7 @@ function Bienvenue() {
 
             </section>
             <section className='section-projets'>
-                <h2>Mes projets . . .</h2>
+                <h2>Mes projets</h2>
                 <div className='section-thumbs'>
                     {projets.map((projet) => <Thumb key={projet.id} projet={projet} />)}
                 </div>

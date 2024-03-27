@@ -4,9 +4,12 @@
     height: 405px;
 
 
+
     a {
+        display: inline-block;
         text-decoration: none;
         color: rgb(59, 59, 59);
+        box-shadow: 4px 4px 6px rgb(7, 64, 64, 80%);
     }
 
     .card-img {
@@ -16,7 +19,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        box-shadow: 5px 8px 2px #807c7c;
+
 
         img {
             width: 293px;
@@ -30,7 +33,6 @@
         width: 325px;
         height: 80px;
         text-align: end;
-        box-shadow: 5px 5px 2px #807c7c;
 
         h3,
         p {
