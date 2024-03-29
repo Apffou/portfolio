@@ -11,7 +11,7 @@ import Header from './ComponentsBase/Header/Header';
 
 function App() {
   return (
-    <div>
+    <>
       <Header />
       <Routes>
         <Route path="/" element={<Bienvenue nom="Home" />} />
@@ -23,7 +23,7 @@ function App() {
       <footer>
         <Footer></Footer>
       </footer>
-    </div>
+    </>
   );
 }
 

@@ -1,0 +1,45 @@
+.apropos-container {
+    margin-bottom: 20px;
+
+    .histoire {
+        margin: 0 auto;
+
+        h1 {
+            text-align: center;
+        }
+
+        p {
+            padding: 5px 25px;
+        }
+    }
+
+    .objectifs {
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+        margin: 100px auto;
+
+        .objectif-content {
+            display: flex;
+            flex-direction: column;
+        }
+
+        h2,
+        h3 {
+            text-align: center;
+        }
+
+        .sun {
+            margin: auto;
+            margin-bottom: 8px;
+        }
+
+        p {
+            padding: 0 25px;
+        }
+    }
+
+
+
+
+}
