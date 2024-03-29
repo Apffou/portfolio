@@ -10,7 +10,7 @@
         "cover": "../assets/images/ecran-booki.png",
         "linkPage": "https://apffou.github.io/Booki/",
         "linkGithub": "https://github.com/Apffou/Booki",
-        "description": "Ce projet avait pour mission de créer une page via une maquette fourni. Elle devait être responsive mobile, tablette et desktop. Les conditions à respecter étaient de simuler un bouton rechercher, de mettre en hoover les filtres et le menu.",
+        "description": "Premiers pas dans les bases des langagnes HTML/CSS sur ce projet. J'avais pour mission de créer une page via une maquette fourni. Elle devait être responsive mobile, tablette et desktop. Les conditions à respecter étaient de simuler un bouton rechercher, de mettre en hoover les filtres et le menu.",
         "tags": [
             {
                 "title": "HTML",
@@ -35,7 +35,7 @@
         "cover": "../assets/images/ecran-ohmyfood.png",
         "linkPage": "https://apffou.github.io/Ohmyfood/",
         "linkGithub": "https://github.com/Apffou/Ohmyfood",
-        "description": "Ce projet avait pour mission de créer un site avec une maquette à respecter. Elle devait être responsive et créer en mobile first. Les conditions à respecter étaient de créer un loader, de faire des animations css et keyframe fluide en hoover. ",
+        "description": "Ce projet avait pour mission de créer un site avec une maquette à respecter. Elle devait être responsive et créée en mobile first. Les conditions à respecter étaient de créer un loader, de faire des animations css et keyframe fluide en hoover. ",
         "tags": [
             {
                 "title": "HTML",
@@ -65,7 +65,7 @@
         "cover": "../assets/images/ecran-carducci.png",
         "linkPage": "https://apffou.github.io/NinaCarducci/",
         "linkGithub": "https://github.com/Apffou/NinaCarducci",
-        "description": "Ce projet avait pour mission d'optimiser le site web pour qu'il soit plus accessible aux utilisateurs comme un temps de chargement plus rapide en réduisant le poids des images. Les conditions à respecter étaient d'avoir un score de 90 minimum sur LightHouse (outil permetant de mesurer la qualité d'une page Web). Il fallait également pratiquer le référencement naturel (SEO) par exemple en mettant une balise title, en renommant les images ou en remplissant les balises ALT. ",
+        "description": "Ma mission pour ce projet était d'optimiser la one page d'une photographe pour qu'il soit plus accessible aux utilisateurs avec notamment l'accessibilité aux personne avec déficience visuel. Le temps de chargement devait être rapide ce qui a été rendu possoble en redimensionnant les images et en les passant au bon format. Les conditions à respecter étaient d'avoir un score de 90 minimum sur LightHouse (outil permetant de mesurer la qualité d'une page Web). Il fallait également pratiquer le référencement naturel (SEO) par exemple en mettant une balise title, en renommant les images ou en remplissant les balises ALT. ",
         "tags": [
             {
                 "title": "HTML",
@@ -95,7 +95,7 @@
         "cover": "../assets/images/ecran-kasa.png",
         "linkPage": "",
         "linkGithub": "https://github.com/Apffou/Kasa",
-        "description": "Ce projet avait pour mission de faire la refonte du site Web Kasa à partir d'une base de donnée. Les conditions pour réussir ce projet étaient d'utiliser React pour le front-end pour créer des composants et des routes pour naviguer sur le site.  Il a été intéressant de construire des composants avec la suntaxe particulière de React.  ",
+        "description": "Ce projet visait à réaliser la refonte du site Web Kasa en utilisant une base de données existante. Les objectifs de ce projet incluaient l'utilisation de React pour développer le front-end, la création de composants modulaires, ainsi que la mise en place de routes pour faciliter la navigation sur le site. Ce fut une expérience enrichissante de concevoir et de mettre en œuvre des composants en suivant la syntaxe spécifique de React. ",
         "tags": [
             {
                 "title": "HTML",
@@ -130,7 +130,7 @@
         "cover": "../assets/images/ecran-pika.png",
         "linkPage": "https://apffou.github.io/Pika/",
         "linkGithub": "https://github.com/Apffou/Pika",
-        "description": "Ce projet personnel était de continuer à m'exercer sur ce que j'avais appris pendant ma formation. J'ai pu m'exercer sur React, la mise en page et les animations CSS. J'ai également appris à déployer un site React sur Github Pages.  ",
+        "description": "Cette initiative personnelle visait à consolider mes compétences acquises lors de ma formation en m'exerçant davantage sur React, la conception de mises en page et les animations CSS. De plus, j'ai acquis de nouvelles compétences en déployant un site React sur GitHub Pages.",
         "tags": [
             {
                 "title": "HTML",
@@ -165,7 +165,7 @@
         "cover": "../assets/images/ecran-bank.png",
         "linkPage": "",
         "linkGithub": "https://github.com/Apffou/argent-bank",
-        "description": "Ce projet ??  ",
+        "description": "La mission principale de ce projet était d'intégrer le front-end avec le back-end via des appels API. J'ai transformé le site statique en une application web responsive avec React et Redux Toolkit, en mettant l'accent sur la gestion de la connexion de l'utilisateur et la possibilité de modifier son pseudo. Grâce à Redux Toolkit, j'ai pu centraliser les données et les rendre accessibles dans tous mes composants.  ",
         "tags": [
             {
                 "title": "HTML",
