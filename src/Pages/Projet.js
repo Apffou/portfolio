@@ -26,15 +26,17 @@ function Projet() {
                     </div>
 
                     <h2>En savoir plus </h2>
+
                     <div className='link-projets'>
                         <a href={project.linkGithub} className='icon-projet'>
                             <img src="../../assets/images/github-link.png" alt="icon github" className='icon' />
                             <span>Source du projet</span>
                         </a>
-                        <a href={project.linkPage} className='icon-projet'>
-                            <img src="../../assets/images/page-web.png" alt="icon site web" className='icon' />
-                            <span>Accès au site</span>
-                        </a>
+                        {project.linkPage && ( // Condition pour vérifier si project.linkpage est défini 
+                            <a href={project.linkPage} className='icon-projet'>
+                                <img src="../../assets/images/page-web.png" alt="icon site web" className='icon' />
+                                <span>Accès au site</span>
+                            </a>)}
                     </div>
                 </div>
                 <div className='cover-container'>
