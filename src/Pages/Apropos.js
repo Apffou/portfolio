@@ -1,10 +1,10 @@
 
 function Apropos() {
     return (
-        <>
+        <div className="apropos-container">
             <section className="histoire">
                 <h1>À propos </h1>
-                <p>Pour la petite histoire en 2016, j'ai entrepris une reconversion professionnelle pour devenir infographiste Print,
+                <p>En 2016, j'ai entrepris une reconversion professionnelle pour devenir infographiste Print,
                     passionné par la mise en page. Au cours de cette période, j'ai exploré les bases du web, une expérience qui m'a captivé.
                 </p>
                 <p>Quelques années plus tard,  j'ai ressenti le désir d'évoluer et d'approfondir mes connaissances en matière de conception web.
@@ -15,17 +15,20 @@ function Apropos() {
             </section>
             <section className="objectifs">
                 <h2>Mes objectifs</h2>
-                <div>
+                <div className="objectif-content">
+                    <img src="/assets/images/sun.webp" alt="fezfez" className="sun" />
                     <h3>Eco Conception</h3>
                     <p>Apprendre et intégrer des pratiques d'éco-conception dans mes projets web afin de réduire l'empreinte écologique des applications et promouvoir
                         une approche durable du numérique.
                     </p>
                 </div>
-                <div>
+                <div className="objectif-content">
+                    <img src="/assets/images/sun.webp" alt="fezfez" className="sun" />
                     <h3>UX Design</h3>
                     <p>Approfondir ma compréhension des principes fondamentaux de l'UX design en suivant des cours en ligne, en lisant des livres spécialisés et en pratiquant des exercices de conception.</p>
                 </div>
-                <div>
+                <div className="objectif-content">
+                    <img src="/assets/images/sun.webp" alt="fezfez" className="sun" />
                     <h3>Gestion du stress</h3>
                     <p>Améliorer ma capacité à gérer le stress et à développer des stratégies efficaces pour maintenir un état d'esprit positif et résilient
                         dans les situations difficiles.</p>
@@ -34,7 +37,7 @@ function Apropos() {
             <section className="hobbies">
                 <h2>Mes Hobbies</h2>
                 <div>
-                    <img src="" alt="" />
+                    <img src="" alt="fezfez" />
                     <h2>Photographie </h2>
                     <p>"Je pratique depuis peu la photographie animalière et quel plaisir de réussir à capturer un cliché.
                         Le monde qui nous entoure est rempli de beauté si l'on prends patience pour le capter. Savourer juste le bruit de la nature et ouvrir grand les
@@ -78,7 +81,7 @@ function Apropos() {
 
             </section>
 
-        </>
+        </div>
     )
 }
 export default Apropos;
