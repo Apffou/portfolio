@@ -1,15 +1,29 @@
+@use '../variable.scss';
+
 .apropos-container {
     margin-bottom: 20px;
 
     .histoire {
-        margin: 0 auto;
+        margin: 50px auto;
 
         h1 {
             text-align: center;
         }
 
         p {
-            padding: 5px 25px;
+            width: 80%;
+            margin: 25px auto;
+
+            @media (min-width: 1440px) {
+                width: 65%;
+                margin: 40px auto;
+            }
+
+            @media (min-width: 1920px) {
+                width: 60%;
+                margin: 40px auto;
+                text-align: center;
+            }
         }
     }
 
@@ -19,9 +33,27 @@
         gap: 35px;
         margin: 100px auto;
 
+        @media (min-width: 1440px) {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 40px 250px;
+        }
+
         .objectif-content {
             display: flex;
             flex-direction: column;
+
+
+            @media (min-width: 1440px) {
+                width: 400px;
+                grid-row-start: 2;
+                align-items: center;
+                margin: auto;
+            }
+        }
+
+        h2 {
+            grid-column-start: 2;
         }
 
         h2,
@@ -35,11 +67,69 @@
         }
 
         p {
-            padding: 0 25px;
+            width: 75%;
+            margin: 25px auto;
         }
     }
 
+    .hobbies {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 55px;
+        background-color: variable.$white;
+        padding-top: 60px;
+        box-sizing: border-box;
 
+        @media (min-width:1024px) {
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 0;
+            align-items: baseline;
+        }
 
+        .hobbie-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0 20px;
+            gap: 20px;
 
+            @media (min-width:1024px) {
+                row-gap: 20px;
+            }
+
+            img {
+                background-color: black;
+                width: 130px;
+                height: 130px;
+            }
+
+            p {
+                width: 90%;
+
+                @media (min-width:1024px) {
+                    text-align: justify;
+                    margin: 0 auto;
+                }
+
+                @media (min-width:1440px) {
+                    width: 80%;
+                }
+            }
+        }
+
+        .first {
+            width: 100%;
+            padding-bottom: 90px;
+
+        }
+
+        .second {
+            width: 25%;
+            box-sizing: border-box;
+            padding-top: 90px;
+            padding-bottom: 90px;
+        }
+    }
 }

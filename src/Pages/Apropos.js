@@ -35,50 +35,43 @@ function Apropos() {
                 </div>
             </section>
             <section className="hobbies">
-                <h2>Mes Hobbies</h2>
-                <div>
-                    <img src="" alt="fezfez" />
+
+                <div className="hobbie-content first">
+                    <h2>Mes Hobbies</h2>
+                    <img src="/assets/images/minia/booki-projet.webp" alt="fezfez" />
                     <h2>Photographie </h2>
-                    <p>"Je pratique depuis peu la photographie animalière et quel plaisir de réussir à capturer un cliché.
+                    <p>Je pratique depuis peu la photographie animalière et quel plaisir de réussir à capturer un fabuleux cliché.
                         Le monde qui nous entoure est rempli de beauté si l'on prends patience pour le capter. Savourer juste le bruit de la nature et ouvrir grand les
-                        yeux sont mes petits plaisirs de la vie. "</p>
+                        yeux sont mes petits plaisirs de la vie.</p>
                 </div>
 
-                <div>
-                    <img src="" alt="" />
+                <div className="hobbie-content second">
+                    <img src="/assets/images/minia/kasa-projet.webp" alt="" />
                     <h2>Lecture</h2>
-                    <p>" J'adore les livres. Toute petite on m'a lu des contes pour m'endormir, puis je les ai lus dès que je pouvais, partout, tout le temps.
-                        Chaque livre est une invitation à l'aventure, une opportunité d'apprendre,de réver et de réflechir. L'odeur du papier et de l'encre ♥"</p>
+                    <p>J'adore les livres. Toute petite on m'a lu des contes pour m'endormir, puis je les ai lus dès que je pouvais, partout, tout le temps.
+                        Chaque livre est une invitation à l'aventure, une opportunité d'apprendre,de réver et de réflechir. L'odeur du papier et de l'encre...</p>
                 </div>
 
-                <div>
+                <div className="hobbie-content second">
                     <img src="" alt="" />
                     <h2>Jeux Vidéos</h2>
-                    <p>"Geek ? Oui totalement. Les jeux vidéos sont des belles histoires ou l'on nous permet de jouer un rôle. Je suis fascinée
-                        par la créativité sans fin du monde des jeux vidéos que ce soit dans le gameplay, dans la patte graphique ou les musiques. "</p>
+                    <p>Moi Geek ? Oui totalement. Les jeux vidéos sont des belles histoires ou l'on nous permet de jouer un rôle. Je suis fascinée
+                        par la créativité sans fin du monde des jeux vidéos que ce soit dans le gameplay, dans la patte graphique ou les musiques.</p>
                 </div>
-                <div>
+                <div className="hobbie-content second">
                     <img src="" alt="" />
-                    <h2>Cinéma/Séries : ""</h2>
+                    <h2>Cinéma/Séries</h2>
                     <p></p>
                 </div>
 
-                <div>
+                <div className="hobbie-content second">
                     <img src="" alt="" />
                     <h2>Doublage Français  </h2>
                     <p>
-                        "Team VO ou VF ? Aucun, c'est un faux débat. J'admire beaucoup nos acteurs et actrices qui travaillent dans le doublage
-                        tel que Richard Darbois (Buzz L'éclair, Harrison Ford) ou Barbara Beretta (Laguertha dans Vikings, Reine Maeve dans The Boys).   "
+                        Team VO ou VF ? Aucun, c'est un faux débat. J'admire beaucoup nos acteurs et actrices qui travaillent dans le doublage
+                        tel que Richard Darbois (Buzz L'éclair, Harrison Ford) ou Barbara Beretta (Laguertha dans Vikings, Reine Maeve dans The Boys).
                     </p>
                 </div>
-                <div>
-                    <img src="" alt="" />
-                    <h2>Les chiens : "" </h2>
-                    <p>
-
-                    </p>
-                </div>
-
             </section>
 
         </div>
