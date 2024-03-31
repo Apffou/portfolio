@@ -1,10 +1,18 @@
-/******************* Couleurs */
+/******************* Font */
+
+
+@font-face {
+    font-family: "Yeseva";
+    src: url(../public/assets/font/YesevaOne-Regular.ttf) format(truetype);
+}
 
 @mixin font {
-    font-family: "Yeseva One", serif;
-    font-weight: 500;
-    font-style: normal;
+    font-family: 'Yeseva';
+    font-weight: 400;
 }
+
+
+/******************* Grid deux colonnes */
 
 @mixin gridTwoColumns {
     display: grid;

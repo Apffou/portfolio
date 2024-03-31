@@ -1,4 +1,5 @@
 @use '../variable.scss';
+@use '../mixins.scss';
 
 .apropos-container {
     margin-bottom: 20px;
@@ -13,6 +14,7 @@
         p {
             width: 80%;
             margin: 25px auto;
+            text-align: center;
 
             @media (min-width: 1440px) {
                 width: 65%;
@@ -31,17 +33,27 @@
         display: flex;
         flex-direction: column;
         gap: 35px;
-        margin: 100px auto;
+        background: #005C5C;
+        box-shadow: 3px 4px 5px gray;
+        padding: 50px 0;
 
         @media (min-width: 1440px) {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
             grid-template-rows: 40px 250px;
+            margin: 100px 60px;
+            border-radius: 15px;
+            padding: 40px;
+        }
+
+        @media (min-width: 1920px) {
+            margin: 100px 120px;
         }
 
         .objectif-content {
             display: flex;
             flex-direction: column;
+            align-items: center;
 
 
             @media (min-width: 1440px) {
@@ -52,84 +64,131 @@
             }
         }
 
+        img {
+            display: block;
+        }
+
         h2 {
             grid-column-start: 2;
+            color: white;
         }
 
-        h2,
         h3 {
-            text-align: center;
-        }
-
-        .sun {
-            margin: auto;
-            margin-bottom: 8px;
+            color: #FECFAA;
         }
 
         p {
-            width: 75%;
-            margin: 25px auto;
+            color: variable.$second-text-color;
         }
     }
 
-    .hobbies {
+    h2,
+    h3 {
+        text-align: center;
+    }
+
+    .sun {
+        margin: auto;
+        margin-bottom: 3px;
+    }
+
+    p {
+        width: 78%;
+        margin: 25px auto;
+        text-align: center;
+    }
+}
+
+.hobbies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: variable.$white;
+    padding-top: 60px;
+    box-sizing: border-box;
+    width: 100%;
+
+    @media (min-width:1024px) {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 0;
+        align-items: baseline;
+    }
+
+    .hobbie-content {
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 55px;
-        background-color: variable.$white;
-        padding-top: 60px;
-        box-sizing: border-box;
+        padding: 0 20px;
+        gap: 20px;
+        width: 100%;
 
         @media (min-width:1024px) {
-            flex-direction: row;
-            flex-wrap: wrap;
-            gap: 0;
-            align-items: baseline;
+            row-gap: 20px;
         }
 
-        .hobbie-content {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 0 20px;
-            gap: 20px;
+        img {
+            width: 130px;
+            height: 130px;
+
+            @media (min-width:1920px) {
+                width: 180px;
+                height: 180px;
+            }
+        }
+
+        p {
+            width: 90%;
 
             @media (min-width:1024px) {
-                row-gap: 20px;
+                text-align: left;
+                margin: 0 auto;
             }
 
-            img {
-                background-color: black;
-                width: 130px;
-                height: 130px;
-            }
-
-            p {
-                width: 90%;
-
-                @media (min-width:1024px) {
-                    text-align: justify;
-                    margin: 0 auto;
-                }
-
-                @media (min-width:1440px) {
-                    width: 80%;
-                }
+            @media (min-width:1440px) {
+                width: 80%;
             }
         }
+    }
 
-        .first {
-            width: 100%;
-            padding-bottom: 90px;
+    .first {
+        padding-bottom: 90px;
 
-        }
+    }
 
-        .second {
+    .second {
+        width: 100%;
+        box-sizing: border-box;
+        padding-top: 90px;
+        padding-bottom: 90px;
+
+        @media (min-width:1024px) {
             width: 25%;
-            box-sizing: border-box;
-            padding-top: 90px;
-            padding-bottom: 90px;
+            padding-bottom: 0px;
+            min-height: 895px;
         }
+
+        @media (min-width:1440px) {
+            min-height: 778px;
+        }
+    }
+
+    .color1 {
+        background-color: variable.$first-color-hobbie;
+    }
+
+    .color2 {
+        background-color: variable.$second-color-hobbie;
+
+    }
+
+    .color3 {
+        background-color: variable.$third-color-hobbie;
+
+    }
+
+    .color4 {
+        background-color: variable.$fourth-color-hobbie;
+
     }
 }
