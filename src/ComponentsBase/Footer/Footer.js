@@ -7,7 +7,7 @@ function Footer() {
                 <img src="/assets/images/footer.png" alt="" className='logo' />
             </div>
 
-            <p>Copyright © Anaïs Zafiriou-Lejeune</p>
+            <p>Copyright © 2024 Anaïs Zafiriou-Lejeune</p>
         </section>
     )
 }

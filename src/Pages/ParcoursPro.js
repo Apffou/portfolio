@@ -8,8 +8,8 @@ function ParcoursPro() {
                 <div className="presentation">
                     <h1>Curriculum Vitae</h1>
                     <p>Mesdames et Messieurs bienvenue sur mon CV ! (tadaa!).</p>
-                    <p>Passage obligé dans un Porfolio de fin d'étude, bien que ce soit une page généralement consultés par des
-                        recruteurs ou des personnes en manque de lecture. Vous trouverez des informations typiques tel que mes formations ou mes compétences.
+                    <p>Passage obligatoire lors d'un Portfolio de fin d'étude, bien que ce soit une page généralement consulté par des
+                        recruteurs ou des personnes en manque de lecture. Vous trouverez des informations typiques telles que mes formations ou mes compétences.
                     </p>
                     <p>Est ce que j'essaie de remplir ce paragraphe avec des banalités juste pour faire comme si j'avais beaucoup de contenu ? Peut-être ? </p>
                     <a href="https://www.linkedin.com/in/anais-zafiriou-lejeune/"><div className="button-linkedin"> Vous êtes sur Linkedin ? Suivons nous ! </div></a>
@@ -28,13 +28,13 @@ function ParcoursPro() {
                 </div>
             </section>
             <section className="Parcours">
-                <h2 className="title">Parcours Professionnel</h2>
+                <h2 className="title">Parcours professionnel</h2>
                 <section className="formations">
-                    <h2>Mon cursus</h2>
+                    <h2>Cursus</h2>
                     <div className="formations-container">
                         <div className="formation-content">
                             <img src="/assets/images/infographiste.png" alt="" />
-                            <h3>Infographiste Mise en Page </h3>
+                            <h3>Infographiste mise en page </h3>
                             <span>2016/2017</span>
                         </div>
                         <div className="formation-content">
@@ -52,7 +52,7 @@ function ParcoursPro() {
 
                 </section>
                 <section className="skills-soft">
-                    <h2>Mes compétences</h2>
+                    <h2>Compétences</h2>
                     <div className="skills-soft-container">
                         <SimpleCard src="html.png" alt="Logo du langage Html" title="HTML" />
                         <SimpleCard src="css-3.png" alt="Logo du langage CSS" title="CSS" />

@@ -8,7 +8,7 @@ function Error404() {
                 <h1>OUPS !</h1>
                 <p>Souhaitez vous revenir à la page <Link to="/"> d'accueil</Link> ? </p>
             </div>
-            <img src="assets/images/oups_erreur_404.jpg" alt="Petite fille rousse les deux mains sur la bouche par le photographe Jelleke Vanooteghem" />
+            <img src="assets/images/oups_erreur_404.webp" alt="Petite fille rousse les deux mains sur la bouche par le photographe Jelleke Vanooteghem" />
         </div>
     )
 }
