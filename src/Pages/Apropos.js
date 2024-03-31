@@ -5,7 +5,7 @@ function Apropos() {
             <section className="histoire">
                 <h1>À propos </h1>
                 <p>En 2016, j'ai entrepris une reconversion professionnelle pour devenir infographiste Print,
-                    passionné par la mise en page. Au cours de cette période, j'ai exploré les bases du web, une expérience qui m'a captivé.
+                    passionnée par la mise en page. Au cours de cette période, j'ai exploré les bases du web, une expérience qui m'a captivé.
                 </p>
                 <p>Quelques années plus tard,  j'ai ressenti le désir d'évoluer et d'approfondir mes connaissances en matière de conception web.
                     Après avoir suivi une formation en Web design, qui m'a permis d'apprendre les bonnes pratiques à suivre et surtout celles
@@ -16,19 +16,20 @@ function Apropos() {
             <section className="objectifs">
                 <h2>Mes objectifs</h2>
                 <div className="objectif-content">
-                    <img src="/assets/images/sun.webp" alt="fezfez" className="sun" />
+                    <img src="/assets/images/sunlight1.png" alt="fezfez" className="sun" />
                     <h3>Eco Conception</h3>
+
                     <p>Apprendre et intégrer des pratiques d'éco-conception dans mes projets web afin de réduire l'empreinte écologique des applications et promouvoir
                         une approche durable du numérique.
                     </p>
                 </div>
                 <div className="objectif-content">
-                    <img src="/assets/images/sun.webp" alt="fezfez" className="sun" />
+                    <img src="/assets/images/sunlight1.png" alt="fezfez" className="sun" />
                     <h3>UX Design</h3>
                     <p>Approfondir ma compréhension des principes fondamentaux de l'UX design en suivant des cours en ligne, en lisant des livres spécialisés et en pratiquant des exercices de conception.</p>
                 </div>
                 <div className="objectif-content">
-                    <img src="/assets/images/sun.webp" alt="fezfez" className="sun" />
+                    <img src="/assets/images/sunlight1.png" alt="fezfez" className="sun" />
                     <h3>Gestion du stress</h3>
                     <p>Améliorer ma capacité à gérer le stress et à développer des stratégies efficaces pour maintenir un état d'esprit positif et résilient
                         dans les situations difficiles.</p>
@@ -38,38 +39,39 @@ function Apropos() {
 
                 <div className="hobbie-content first">
                     <h2>Mes Hobbies</h2>
-                    <img src="/assets/images/minia/booki-projet.webp" alt="fezfez" />
+                    <img src="/assets/images/minia/appareil-photo.webp" alt="fezfez" />
                     <h2>Photographie </h2>
                     <p>Je pratique depuis peu la photographie animalière et quel plaisir de réussir à capturer un fabuleux cliché.
-                        Le monde qui nous entoure est rempli de beauté si l'on prends patience pour le capter. Savourer juste le bruit de la nature et ouvrir grand les
-                        yeux sont mes petits plaisirs de la vie.</p>
+                        Le monde qui nous entoure est rempli de beauté si l'on prends patience pour le capter. Observer les animaux dans leur habitat naturel, qu'il s'agisse d'oiseaux majestueux
+                        survolant les cimes des arbres ou de petits mammifères curieux explorant leur environnement, me remplit d'une immense gratitude et d'un profond respect pour la vie sur terre. </p>
                 </div>
 
-                <div className="hobbie-content second">
-                    <img src="/assets/images/minia/kasa-projet.webp" alt="" />
+                <div className="hobbie-content second color1">
+                    <img src="/assets/images/minia/book.webp" alt="" />
                     <h2>Lecture</h2>
-                    <p>J'adore les livres. Toute petite on m'a lu des contes pour m'endormir, puis je les ai lus dès que je pouvais, partout, tout le temps.
-                        Chaque livre est une invitation à l'aventure, une opportunité d'apprendre,de réver et de réflechir. L'odeur du papier et de l'encre...</p>
+                    <p>J'adore les livres. Toute petite on m'a lu des contes pour m'endormir, puis je les ai dévorés dès que j'ai pu, n'importe où, n'importe quand.
+                        Chaque livre est une porte ouverte vers l'aventure, une chance d'apprendre, de rêver et de réfléchir. Rien ne vaut l'odeur enivrante du papier et de l'encre qui remplissent chaque page.</p>
                 </div>
 
-                <div className="hobbie-content second">
-                    <img src="" alt="" />
-                    <h2>Jeux Vidéos</h2>
-                    <p>Moi Geek ? Oui totalement. Les jeux vidéos sont des belles histoires ou l'on nous permet de jouer un rôle. Je suis fascinée
-                        par la créativité sans fin du monde des jeux vidéos que ce soit dans le gameplay, dans la patte graphique ou les musiques.</p>
+                <div className="hobbie-content second color2">
+                    <img src="/assets/images/minia/touche-clavier.webp" alt="" />
+                    <h2>Jeux Vidéo</h2>
+                    <p>En tant que geek, je suis complètement immergée dans l'univers des jeux vidéo. Pour moi, ces jeux offrent des histoires captivantes où nous pouvons incarner différents rôles.
+                        La créativité infinie présente dans le monde des jeux vidéo, que ce soit à travers le gameplay, les graphismes ou la musique, me fascine complètement.</p>
                 </div>
-                <div className="hobbie-content second">
-                    <img src="" alt="" />
-                    <h2>Cinéma/Séries</h2>
-                    <p></p>
+                <div className="hobbie-content second color3">
+                    <img src="/assets/images/minia/popcorn.webp" alt="" />
+                    <h2>Cinéma</h2>
+                    <p>Le cinéma est une source infinie de magie. Que ce soit en contemplant des effets spéciaux spectaculaires, en écoutant des dialogues percutants ou en étant transporté par une bande originale envoûtante,
+                        chaque instant passé devant un écran de cinéma/télé est une expérience magique (parfois déceptive). </p>
                 </div>
 
-                <div className="hobbie-content second">
-                    <img src="" alt="" />
-                    <h2>Doublage Français  </h2>
+                <div className="hobbie-content second color4">
+                    <img src="/assets/images/minia/dog.webp" alt="" />
+                    <h2>Les animaux </h2>
                     <p>
-                        Team VO ou VF ? Aucun, c'est un faux débat. J'admire beaucoup nos acteurs et actrices qui travaillent dans le doublage
-                        tel que Richard Darbois (Buzz L'éclair, Harrison Ford) ou Barbara Beretta (Laguertha dans Vikings, Reine Maeve dans The Boys).
+                        Chaque créature, grande ou petite, contribue à l'équilibre délicat de notre écosystème, et je suis déterminée à préserver cet héritage précieux pour les générations futures.
+                        Je porte particulièrement un amour pour les chiens profond et inconditionnel. Leur fidélité, leur affection et leur joie de vivre sont une source infinie de bonheur pour moi.
                     </p>
                 </div>
             </section>
