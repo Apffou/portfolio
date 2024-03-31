@@ -1,5 +1,7 @@
 /* --------------------  Header */
 
+@use '../../keyframes.scss';
+
 $duration : 0.3s ease-in-out;
 
 
@@ -91,9 +93,6 @@ header {
             }
         }
 
-
-
-
     }
 
     .menu {
@@ -128,7 +127,6 @@ header {
 }
 
 
-
 .nav-desktop {
     @media (min-width:768px) {
         display: flex;
@@ -142,6 +140,4 @@ header {
             margin: auto;
         }
     }
-
-
 }
