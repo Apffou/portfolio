@@ -32,7 +32,7 @@
         "alt": "visuel du site web OhMyFood",
         "explication": "Apprentissage du mobile first et les animations CSS",
         "date": "Octobre 2023",
-        "cover": "../portfolio/assets/images/ecran/ecran-ohmyfood.webp",
+        "cover": "../assets/images/ecran/ecran-ohmyfood.webp",
         "linkPage": "https://apffou.github.io/Ohmyfood/",
         "linkGithub": "https://github.com/Apffou/Ohmyfood",
         "description": "Création du site en suivant les maquettes fournies. L'objectif de ce projet est de développer en mobile first et d'appliquer le responsive design. Parmi les demandes, il y a la création d'un loader, appliquer des animations css et keyframe fluide en hoover. ",
