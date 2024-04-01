@@ -39,7 +39,7 @@ function Apropos() {
 
                 <div className="hobbie-content first">
                     <h2>Mes Hobbies</h2>
-                    <img src="/portfolio/assets/images/minia/appareil-photo.webp" alt="Appareil photo" />
+                    <img src="/portfolio/assets/images/minia/appareil-photo.webp" alt="personnage Appareil photo qui lève les bras" />
                     <h2>Photographie </h2>
                     <p>Je pratique depuis peu la photographie animalière et quel plaisir de réussir à capturer un cliché.
                         Le monde qui nous entoure est rempli de beauté si l'on prends patience pour le capter. Observer les animaux dans leur habitat naturel, qu'il s'agisse d'oiseaux
@@ -47,27 +47,27 @@ function Apropos() {
                 </div>
 
                 <div className="hobbie-content second color1">
-                    <img src="/portfolio/assets/images/minia/book.webp" alt="" />
+                    <img src="/portfolio/assets/images/minia/book.webp" alt="personnage livre qui lève les bras" />
                     <h2>Lecture</h2>
                     <p>J'adore les livres. Toute petite on m'a lu des contes pour m'endormir, puis je les ai dévorés dès que j'ai pu, n'importe où, n'importe quand.
                         Chaque livre est une porte ouverte vers l'aventure, une chance d'apprendre, de rêver et de réfléchir. Rien ne vaut l'odeur enivrante du papier et de l'encre à l'ouverture d'un livre.</p>
                 </div>
 
                 <div className="hobbie-content second color2">
-                    <img src="/portfolio/assets/images/minia/touche-clavier.webp" alt="" />
+                    <img src="/portfolio/assets/images/minia/touche-clavier.webp" alt="touche zqsd , touche les plus utilisés quand on joue" />
                     <h2>Jeux Vidéo</h2>
                     <p>En tant que geek, je suis complètement immergée dans l'univers des jeux vidéo. Pour moi, ces jeux offrent des histoires captivantes où nous pouvons incarner différents rôles.
                         La créativité infinie présente dans le monde des jeux vidéo, que ce soit à travers le gameplay, les graphismes ou la musique, me fascine complètement.</p>
                 </div>
                 <div className="hobbie-content second color3">
-                    <img src="/portfolio/assets/images/minia/popcorn.webp" alt="" />
+                    <img src="/portfolio/assets/images/minia/popcorn.webp" alt="Pot de pop corn avec des lunettes 3D" />
                     <h2>Cinéma</h2>
                     <p>Le cinéma est une source inépuisable de magie. Que ce soit en contemplant des effets spéciaux spectaculaires, en écoutant des dialogues percutants ou en étant transportée par une bande originale envoûtante,
                         chaque instant passé devant un écran de cinéma est une expérience magique et parfois déceptive. </p>
                 </div>
 
                 <div className="hobbie-content second color4">
-                    <img src="/portfolio/assets/images/minia/dog.webp" alt="" />
+                    <img src="/portfolio/assets/images/minia/dog.webp" alt="Petit chien qui lève la patte en l'air en signe d'amour" />
                     <h2>Les animaux </h2>
                     <p>
                         Chaque créature, grande ou petite, contribue à l'équilibre délicat de notre écosystème, et je suis déterminée à préserver cet héritage précieux pour les générations futures.
