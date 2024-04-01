@@ -5,9 +5,9 @@ function Apropos() {
             <section className="histoire">
                 <h1>À propos </h1>
                 <p>En 2016, j'ai entrepris une reconversion professionnelle pour devenir infographiste Print,
-                    passionnée par la mise en page. Au cours de cette période, j'ai exploré les bases du web, une expérience qui m'a captivé.
+                    passionnée par la mise en page. Au cours de cette période j'ai exploré les bases du web et ce fut une expérience qui m'a captivé.
                 </p>
-                <p>Quelques années plus tard,  j'ai ressenti le désir d'évoluer et d'approfondir mes connaissances en matière de conception web.
+                <p>Quelques années plus tard, j'ai ressenti le désir d'évoluer et d'approfondir mes connaissances en matière de conception web.
                     Après avoir suivi une formation en Web design, qui m'a permis d'apprendre les bonnes pratiques à suivre et surtout celles
                     à éviter, j'ai ressenti le besoin d'aller plus loin. Mon ambition était de pouvoir concrétiser mes maquettes en code.
                 </p>

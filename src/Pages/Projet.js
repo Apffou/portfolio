@@ -18,7 +18,7 @@ function Projet() {
                     <h1> {project.title} </h1>
                     <p className='date'>{project.date} </p>
                     <p> {project.description} </p>
-                    <h2>Compétences et outils utilisées</h2>
+                    <h2>Compétences et outils utilisés</h2>
                     <div className='tags-container'>
                         {project.tags.map((tag, index) => <SimpleCard key={index} src={tag.img_src} alt={tag.img_alt} title={tag.title} />)}
                     </div>
@@ -28,17 +28,17 @@ function Projet() {
                     <div className='link-projets'>
                         <a href={project.linkGithub} className='icon-projet'>
                             <img src="../../portfolio/assets/images/github-link.png" alt="icon github" className='icon' />
-                            <span>Source du projet</span>
+                            <span>Source</span>
                         </a>
                         {project.linkPage && ( // Condition pour vérifier si project.linkpage est défini 
                             <a href={project.linkPage} className='icon-projet'>
                                 <img src="../../portfolio/assets/images/page-web.png" alt="icon site web" className='icon' />
-                                <span>Accès au site</span>
+                                <span>Site</span>
                             </a>)}
                     </div>
                 </div>
                 <div className='cover-container'>
-                    <img src={project.cover} alt={project.alt} className='cover' />
+                    <img src={project.cover} alt={project.altCover} className='cover' />
                 </div>
 
             </section>

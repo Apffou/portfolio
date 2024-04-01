@@ -7,11 +7,12 @@ function ParcoursPro() {
             <section className="presentation-contain">
                 <div className="presentation">
                     <h1>Curriculum Vitae</h1>
-                    <p>Mesdames et Messieurs bienvenue sur mon CV ! (tadaa!).</p>
-                    <p>Passage obligatoire lors d'un Portfolio de fin d'étude, bien que ce soit une page généralement consulté par des
-                        recruteurs ou des personnes en manque de lecture. Vous trouverez des informations typiques telles que mes formations ou mes compétences.
+                    <p>Passage obligatoire lors d'un Portfolio de fin d'étude vous y trouverez des informations typiques telles que mes formations ou mes compétences.</p>
+                    <p> Mes qualités sont aussi mes défauts : je suis curieuse et déterminée. Comme dans la vie le trop est l'ennemi du bien, à être curieuse je me perds dans mes
+                        recherches et a être determiné je m'obstine sur des détails qui me font perdre du temps.
                     </p>
-                    <p>Est ce que j'essaie de remplir ce paragraphe avec des banalités juste pour faire comme si j'avais beaucoup de contenu ? Peut-être ? </p>
+                    <p> En guise de conclusion, je rappellerai l'une de mes citations préférées, un véritable leitmotiv dans ma vie :
+                        'Tout ce que nous avons à décider, c'est ce que nous devons faire du temps qui nous est imparti'." </p>
                     <a href="https://www.linkedin.com/in/anais-zafiriou-lejeune/"><div className="button-linkedin"> Vous êtes sur Linkedin ? Suivons nous ! </div></a>
                 </div>
                 <div className="personne">
