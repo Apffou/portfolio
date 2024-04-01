@@ -16,7 +16,7 @@ function ParcoursPro() {
                 </div>
                 <div className="personne">
                     <div className="photo-button">
-                        <img src="/assets/images/portrait.webp" alt="Portrait dessiné par hunbloom" />
+                        <img src="/portfolio/assets/images/portrait.webp" alt="Portrait dessiné par hunbloom" />
                     </div>
                     <div className="contact">
                         <h2>Contact </h2>
@@ -33,18 +33,18 @@ function ParcoursPro() {
                     <h2>Cursus</h2>
                     <div className="formations-container">
                         <div className="formation-content">
-                            <img src="/assets/images/infographiste.png" alt="" />
+                            <img src="/portfolio/assets/images/infographiste.png" alt="" />
                             <h3>Infographiste mise en page </h3>
                             <span>2016/2017</span>
                         </div>
                         <div className="formation-content">
-                            <img src="/assets/images/web-design.png" alt="" />
+                            <img src="/portfolio/assets/images/web-design.png" alt="" />
                             <h3>Web Design </h3>
                             <span>2021/2022</span>
                         </div>
 
                         <div className="formation-content">
-                            <img src="/assets/images/integratrice.png" alt="" />
+                            <img src="/portfolio/assets/images/integratrice.png" alt="" />
                             <h3>Intégratrice Web </h3>
                             <span>2023/2024</span>
                         </div>

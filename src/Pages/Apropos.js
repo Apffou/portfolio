@@ -16,7 +16,7 @@ function Apropos() {
             <section className="objectifs">
                 <h2>Mes objectifs</h2>
                 <div className="objectif-content">
-                    <img src="/assets/images/sunlight1.png" alt="fezfez" className="sun" />
+                    <img src="/portfolio/assets/images/sunlight1.png" alt="fezfez" className="sun" />
                     <h3>Eco Conception</h3>
 
                     <p>Apprendre et intégrer des pratiques d'éco-conception dans mes projets web afin de réduire l'empreinte écologique des applications et promouvoir
@@ -24,12 +24,12 @@ function Apropos() {
                     </p>
                 </div>
                 <div className="objectif-content">
-                    <img src="/assets/images/sunlight1.png" alt="fezfez" className="sun" />
+                    <img src="/portfolio/assets/images/sunlight1.png" alt="fezfez" className="sun" />
                     <h3>UX Design</h3>
                     <p>Approfondir ma compréhension des principes fondamentaux de l'UX design en suivant des cours en ligne, en lisant des livres spécialisés et en pratiquant des exercices de conception.</p>
                 </div>
                 <div className="objectif-content">
-                    <img src="/assets/images/sunlight1.png" alt="fezfez" className="sun" />
+                    <img src="/portfolio/assets/images/sunlight1.png" alt="fezfez" className="sun" />
                     <h3>Gestion du stress</h3>
                     <p>Améliorer ma capacité à gérer le stress et à développer des stratégies efficaces pour maintenir un état d'esprit positif et résilient
                         dans les situations difficiles.</p>
@@ -39,7 +39,7 @@ function Apropos() {
 
                 <div className="hobbie-content first">
                     <h2>Mes Hobbies</h2>
-                    <img src="/assets/images/minia/appareil-photo.webp" alt="fezfez" />
+                    <img src="/portfolio/assets/images/minia/appareil-photo.webp" alt="fezfez" />
                     <h2>Photographie </h2>
                     <p>Je pratique depuis peu la photographie animalière et quel plaisir de réussir à capturer un fabuleux cliché.
                         Le monde qui nous entoure est rempli de beauté si l'on prends patience pour le capter. Observer les animaux dans leur habitat naturel, qu'il s'agisse d'oiseaux majestueux
@@ -47,27 +47,27 @@ function Apropos() {
                 </div>
 
                 <div className="hobbie-content second color1">
-                    <img src="/assets/images/minia/book.webp" alt="" />
+                    <img src="/portfolio/assets/images/minia/book.webp" alt="" />
                     <h2>Lecture</h2>
                     <p>J'adore les livres. Toute petite on m'a lu des contes pour m'endormir, puis je les ai dévorés dès que j'ai pu, n'importe où, n'importe quand.
                         Chaque livre est une porte ouverte vers l'aventure, une chance d'apprendre, de rêver et de réfléchir. Rien ne vaut l'odeur enivrante du papier et de l'encre qui remplissent chaque page.</p>
                 </div>
 
                 <div className="hobbie-content second color2">
-                    <img src="/assets/images/minia/touche-clavier.webp" alt="" />
+                    <img src="/portfolio/assets/images/minia/touche-clavier.webp" alt="" />
                     <h2>Jeux Vidéo</h2>
                     <p>En tant que geek, je suis complètement immergée dans l'univers des jeux vidéo. Pour moi, ces jeux offrent des histoires captivantes où nous pouvons incarner différents rôles.
                         La créativité infinie présente dans le monde des jeux vidéo, que ce soit à travers le gameplay, les graphismes ou la musique, me fascine complètement.</p>
                 </div>
                 <div className="hobbie-content second color3">
-                    <img src="/assets/images/minia/popcorn.webp" alt="" />
+                    <img src="/portfolio/assets/images/minia/popcorn.webp" alt="" />
                     <h2>Cinéma</h2>
                     <p>Le cinéma est une source infinie de magie. Que ce soit en contemplant des effets spéciaux spectaculaires, en écoutant des dialogues percutants ou en étant transporté par une bande originale envoûtante,
                         chaque instant passé devant un écran de cinéma/télé est une expérience magique (parfois déceptive). </p>
                 </div>
 
                 <div className="hobbie-content second color4">
-                    <img src="/assets/images/minia/dog.webp" alt="" />
+                    <img src="/portfolio/assets/images/minia/dog.webp" alt="" />
                     <h2>Les animaux </h2>
                     <p>
                         Chaque créature, grande ou petite, contribue à l'équilibre délicat de notre écosystème, et je suis déterminée à préserver cet héritage précieux pour les générations futures.
