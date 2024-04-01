@@ -1,3 +1,5 @@
+@use '../../variable.scss';
+
 .section-footer {
     padding: 40px 0;
     height: auto;
@@ -17,12 +19,11 @@
             height: 124px;
             object-fit: cover;
         }
-
     }
 
     p {
         margin: 0;
-        color: #BA725A;
+        color: variable.$secondColor;
         text-align: center;
     }
 }
