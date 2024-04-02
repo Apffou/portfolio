@@ -1,7 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import Nav from '../Nav/Nav';
 import './Header.scss';
-import { Link } from 'react-router-dom';
 
 function Header() {
 
