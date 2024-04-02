@@ -13,7 +13,7 @@ function Bienvenue() {
                         <p> Bonne lecture !</p>
                     </div>
                 </div>
-                <img src="/assets/images/bienvenue.webp" alt="" className="presentation-img" />
+                <img src="/portfolio/assets/images/bienvenue.webp" alt="" className="presentation-img" />
 
             </section>
             <section className='section-projets'>
