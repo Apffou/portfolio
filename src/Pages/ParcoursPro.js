@@ -1,6 +1,5 @@
 import SimpleCard from "../Components/SimpleCard/SimpleCard";
 
-
 function ParcoursPro() {
     return (
         <body>
@@ -13,17 +12,17 @@ function ParcoursPro() {
                     </p>
                     <p> En guise de conclusion, je rappellerai l'une de mes citations préférées, un véritable leitmotiv dans ma vie :
                         'Tout ce que nous avons à décider, c'est ce que nous devons faire du temps qui nous est imparti'." </p>
-                    <a href="https://www.linkedin.com/in/anais-zafiriou-lejeune/"><div className="button-linkedin"> Vous êtes sur Linkedin ? Suivons nous ! </div></a>
+                    <a href="https://www.linkedin.com/in/anais-zafiriou-lejeune/" aria-label="Envoi vers la page Linkedin" ><div className="button-linkedin"> Vous êtes sur Linkedin ? Suivons nous ! </div></a>
                 </div>
                 <div className="personne">
                     <div className="photo-button">
-                        <img src="/portfolio/assets/images/portrait.webp" alt="Portrait dessiné par hunbloom" />
+                        <img src="/portfolio/assets/images/portrait.webp" alt="Portrait d'anais zafiriou lejeune dessiné par hunbloom" />
                     </div>
                     <div className="contact">
                         <h2>Contact </h2>
                         <div>
-                            <p>Périgueux, France</p>
-                            <p>azedelle.web@gmail.com</p>
+                            <h3>Périgueux, France</h3>
+                            <h3>azedelle.web[at]gmail.com</h3>
                         </div>
                     </div>
                 </div>

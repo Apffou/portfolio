@@ -1,12 +1,12 @@
 /* --------------------  Header */
 
 @use '../../keyframes.scss';
+@use '../../variable.scss';
 
 $duration : 0.3s ease-in-out;
 
-
 header {
-    background-color: #BA725A;
+    background-color: variable.$firstColor;
     height: 150px;
     display: flex;
     justify-content: center;
@@ -14,19 +14,10 @@ header {
     margin: 0;
     padding: 0;
 
-
-    img {
-        display: block;
-        width: auto;
-        height: 70px;
-
-    }
-
     #burger-button {
         @media (min-width:768px) {
             display: none;
         }
-
 
         .burger-icon {
             position: fixed;
@@ -43,7 +34,6 @@ header {
             @media screen and (min-width:768px) {
                 display: none;
             }
-
 
             /* Icône burger */
             span {
@@ -133,11 +123,10 @@ header {
         flex-direction: column;
     }
 
-    .lien-logo {
-        width: 100%;
-
-        .logo {
-            margin: auto;
-        }
+    .logo {
+        margin: auto;
+        width: auto;
+        height: 70px;
     }
+
 }

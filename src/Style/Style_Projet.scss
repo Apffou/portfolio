@@ -79,7 +79,6 @@
                     text-decoration: none;
                     align-items: center;
                     gap: 10px;
-                    color: variable.$firstColor;
                     cursor: pointer;
 
                     .icon {
@@ -91,7 +90,8 @@
 
                     span {
                         font-weight: 500;
-                        font-size: 1.1em;
+                        font-size: 1.3em;
+                        color: rgb(18, 18, 18);
                     }
                 }
             }
