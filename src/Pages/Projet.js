@@ -1,4 +1,5 @@
 
+import { Helmet } from 'react-helmet';
 import SimpleCard from '../Components/SimpleCard/SimpleCard';
 import projet from '../Projets.json';
 import { useParams } from "react-router-dom";
@@ -12,7 +13,11 @@ function Projet() {
 
     return (
         <div className='project'>
-
+            <Helmet>
+                <title>{project.title} </title>
+                <meta name="description"
+                    content="`Description d'un projet professionnel web responsive"></meta>
+            </Helmet>
             <section className='section-description'>
                 <div className='mission'>
                     <h1> {project.title} </h1>

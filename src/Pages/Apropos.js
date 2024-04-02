@@ -1,7 +1,13 @@
+import { Helmet } from "react-helmet";
 
 function Apropos() {
     return (
         <div className="apropos-container">
+            <Helmet>
+                <title>Evolution professionnelle, objectifs et hobbies d'Anaïs Zafiriou-Lejeune </title>
+                <meta name="description"
+                    content="Découvrez l'évolution professionnelle, les objectifs et les hobbies d'Anaïs Zafiriou-Lejeune, développeuse Front-End basée en Dordogne. Explorez son parcours, ses aspirations, et ses passions, de l'infographie au développement web, en passant par la photographie, la lecture et bien plus encore.  "></meta>
+            </Helmet>
             <section className="histoire">
                 <h1>À propos </h1>
                 <p>En 2016, j'ai entrepris une reconversion professionnelle pour devenir infographiste Print,

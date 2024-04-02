@@ -1,8 +1,14 @@
+import { Helmet } from "react-helmet";
 import SimpleCard from "../Components/SimpleCard/SimpleCard";
 
 function ParcoursPro() {
     return (
         <body>
+            <Helmet>
+                <title>Curriculum Vitae avec présentation des formations, compétences et outils. </title>
+                <meta name="description"
+                    content="Ce Curriculum Vitae présente les formations, compétences et outils d'Anaïs Zafiriou-Lejeune. Découvrez son parcours professionnel, ses qualités, ainsi que ses coordonnées de contact. Suivez son évolution sur Linkedin ! "></meta>
+            </Helmet>
             <section className="presentation-contain">
                 <div className="presentation">
                     <h1>Curriculum Vitae</h1>

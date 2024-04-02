@@ -1,8 +1,14 @@
 import projets from '../Projets.json';
 import Thumb from '../Components/Thumb/Thumb';
+import { Helmet } from 'react-helmet';
 function Bienvenue() {
     return (
         <div>
+            <Helmet>
+                <title>Portfolio d'Anaïs Zafiriou-Lejeune / Azedelle || Intégratrice Web</title>
+                <meta name="description"
+                    content="Découvrez le portfolio d'Anaïs Zafiriou-Lejeune, développeuse Front-End située en Dordogne. Explorez ses multiples projets web et plongez dans son parcours professionnel ainsi que sa description personnelle.  "></meta>
+            </Helmet>
             <section className="section-presentation">
 
                 <div className='titre'>
