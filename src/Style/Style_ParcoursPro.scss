@@ -64,12 +64,10 @@
             border-radius: 30px;
 
             .button-linkedin {
-                box-sizing: content-box;
                 background-color: #ABD4CB;
                 color: black;
                 font-weight: 500;
-                height: 30px;
-                line-height: 30px;
+                max-height: 35px;
                 border-radius: 30px;
                 padding: 10px 20px;
                 text-align: center;
@@ -253,12 +251,9 @@
                 column-gap: 125px;
             }
 
-
             @media screen and (min-width:1920px) {
                 grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-                column-gap: 125px;
             }
-
         }
     }
 }
